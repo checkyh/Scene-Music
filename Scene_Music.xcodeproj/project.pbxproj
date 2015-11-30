@@ -7,135 +7,132 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		630B9D5E1C0C2E2300A1D6DA /* ChorusSharedCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 630B9D5D1C0C2E2300A1D6DA /* ChorusSharedCache.m */; };
-		630B9D631C0C30E500A1D6DA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 630B9D621C0C30E500A1D6DA /* Images.xcassets */; };
-		63812CDA1C0C2B3E0012A687 /* ChorusAlbumsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 63812C931C0C2B3E0012A687 /* ChorusAlbumsCell.m */; };
-		63812CDB1C0C2B3E0012A687 /* ChorusAlbumsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63812C941C0C2B3E0012A687 /* ChorusAlbumsCell.xib */; };
-		63812CDC1C0C2B3E0012A687 /* ChorusAlbumSectionHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 63812C961C0C2B3E0012A687 /* ChorusAlbumSectionHeader.m */; };
-		63812CDD1C0C2B3E0012A687 /* ChorusAlbumSectionHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63812C971C0C2B3E0012A687 /* ChorusAlbumSectionHeader.xib */; };
-		63812CDE1C0C2B3E0012A687 /* ChorusAlbumsSongsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 63812C991C0C2B3E0012A687 /* ChorusAlbumsSongsCell.m */; };
-		63812CDF1C0C2B3E0012A687 /* ChorusAlbumsSongsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63812C9A1C0C2B3E0012A687 /* ChorusAlbumsSongsCell.xib */; };
-		63812CE01C0C2B3E0012A687 /* ChorusAlbumsSongsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63812C9C1C0C2B3E0012A687 /* ChorusAlbumsSongsViewController.m */; };
-		63812CE11C0C2B3E0012A687 /* ChorusAlbumsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63812C9E1C0C2B3E0012A687 /* ChorusAlbumsViewController.m */; };
-		63812CE21C0C2B3E0012A687 /* ChorusAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63812CA01C0C2B3E0012A687 /* ChorusAppDelegate.m */; };
-		63812CE31C0C2B3E0012A687 /* ChorusArtistsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 63812CA21C0C2B3E0012A687 /* ChorusArtistsCell.m */; };
-		63812CE41C0C2B3E0012A687 /* ChorusArtistsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63812CA31C0C2B3E0012A687 /* ChorusArtistsCell.xib */; };
-		63812CE51C0C2B3E0012A687 /* ChorusArtistsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63812CA51C0C2B3E0012A687 /* ChorusArtistsViewController.m */; };
-		63812CE61C0C2B3E0012A687 /* ChorusBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 63812CA71C0C2B3E0012A687 /* ChorusBaseTableViewCell.m */; };
-		63812CE71C0C2B3E0012A687 /* ChorusBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63812CA91C0C2B3E0012A687 /* ChorusBaseTableViewController.m */; };
-		63812CE81C0C2B3E0012A687 /* ChorusBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63812CAB1C0C2B3E0012A687 /* ChorusBaseViewController.m */; };
-		63812CE91C0C2B3E0012A687 /* ChorusContainerSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 63812CAD1C0C2B3E0012A687 /* ChorusContainerSegue.m */; };
-		63812CEA1C0C2B3E0012A687 /* ChorusContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63812CAF1C0C2B3E0012A687 /* ChorusContainerViewController.m */; };
-		63812CEB1C0C2B3E0012A687 /* ChorusIndexSectionHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 63812CB11C0C2B3E0012A687 /* ChorusIndexSectionHeader.m */; };
-		63812CEC1C0C2B3E0012A687 /* ChorusIndexSectionHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63812CB21C0C2B3E0012A687 /* ChorusIndexSectionHeader.xib */; };
-		63812CED1C0C2B3E0012A687 /* ChorusLastFMUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 63812CB41C0C2B3E0012A687 /* ChorusLastFMUtility.m */; };
-		63812CEE1C0C2B3E0012A687 /* chorusMediaPlayer-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 63812CB51C0C2B3E0012A687 /* chorusMediaPlayer-Info.plist */; };
-		63812CEF1C0C2B3E0012A687 /* ChorusMediaUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 63812CB81C0C2B3E0012A687 /* ChorusMediaUtility.m */; };
-		63812CF01C0C2B3E0012A687 /* ChorusNowPlayingSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 63812CBA1C0C2B3E0012A687 /* ChorusNowPlayingSegue.m */; };
-		63812CF11C0C2B3E0012A687 /* ChorusNowPlayingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63812CBC1C0C2B3E0012A687 /* ChorusNowPlayingViewController.m */; };
-		63812CF31C0C2B3E0012A687 /* ChorusSongsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 63812CC01C0C2B3E0012A687 /* ChorusSongsCell.m */; };
-		63812CF41C0C2B3E0012A687 /* ChorusSongsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63812CC11C0C2B3E0012A687 /* ChorusSongsCell.xib */; };
-		63812CF51C0C2B3E0012A687 /* ChorusSongsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63812CC31C0C2B3E0012A687 /* ChorusSongsViewController.m */; };
-		63812CF61C0C2B3E0012A687 /* ChorusTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63812CC51C0C2B3E0012A687 /* ChorusTabBarController.m */; };
-		63812CF71C0C2B3E0012A687 /* ChorusTopBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63812CC71C0C2B3E0012A687 /* ChorusTopBarViewController.m */; };
-		63812CF81C0C2B3E0012A687 /* ChorusUIUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 63812CC91C0C2B3E0012A687 /* ChorusUIUtility.m */; };
-		63812CF91C0C2B3E0012A687 /* ChorusWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63812CCB1C0C2B3E0012A687 /* ChorusWebViewController.m */; };
-		63812CFB1C0C2B3E0012A687 /* UIColor+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 63812CD11C0C2B3E0012A687 /* UIColor+Extensions.m */; };
-		63812CFC1C0C2B3E0012A687 /* UINavigationController+ViewControllers.m in Sources */ = {isa = PBXBuildFile; fileRef = 63812CD31C0C2B3E0012A687 /* UINavigationController+ViewControllers.m */; };
-		63812CFD1C0C2B3E0012A687 /* UIView+Animations.m in Sources */ = {isa = PBXBuildFile; fileRef = 63812CD51C0C2B3E0012A687 /* UIView+Animations.m */; };
-		63812CFE1C0C2B3E0012A687 /* UIView+Effects.m in Sources */ = {isa = PBXBuildFile; fileRef = 63812CD71C0C2B3E0012A687 /* UIView+Effects.m */; };
-		63812CFF1C0C2B3E0012A687 /* UIView+Frames.m in Sources */ = {isa = PBXBuildFile; fileRef = 63812CD91C0C2B3E0012A687 /* UIView+Frames.m */; };
+		6397CC151C0C41AC002478EE /* ChorusAlbumsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6397CBCF1C0C41AC002478EE /* ChorusAlbumsCell.m */; };
+		6397CC161C0C41AC002478EE /* ChorusAlbumsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6397CBD01C0C41AC002478EE /* ChorusAlbumsCell.xib */; };
+		6397CC171C0C41AC002478EE /* ChorusAlbumSectionHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 6397CBD21C0C41AC002478EE /* ChorusAlbumSectionHeader.m */; };
+		6397CC181C0C41AC002478EE /* ChorusAlbumSectionHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6397CBD31C0C41AC002478EE /* ChorusAlbumSectionHeader.xib */; };
+		6397CC191C0C41AC002478EE /* ChorusAlbumsSongsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6397CBD51C0C41AC002478EE /* ChorusAlbumsSongsCell.m */; };
+		6397CC1A1C0C41AC002478EE /* ChorusAlbumsSongsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6397CBD61C0C41AC002478EE /* ChorusAlbumsSongsCell.xib */; };
+		6397CC1B1C0C41AC002478EE /* ChorusAlbumsSongsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6397CBD81C0C41AC002478EE /* ChorusAlbumsSongsViewController.m */; };
+		6397CC1C1C0C41AC002478EE /* ChorusAlbumsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6397CBDA1C0C41AC002478EE /* ChorusAlbumsViewController.m */; };
+		6397CC1D1C0C41AC002478EE /* ChorusAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6397CBDC1C0C41AC002478EE /* ChorusAppDelegate.m */; };
+		6397CC1E1C0C41AC002478EE /* ChorusArtistsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6397CBDE1C0C41AC002478EE /* ChorusArtistsCell.m */; };
+		6397CC1F1C0C41AC002478EE /* ChorusArtistsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6397CBDF1C0C41AC002478EE /* ChorusArtistsCell.xib */; };
+		6397CC201C0C41AC002478EE /* ChorusArtistsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6397CBE11C0C41AC002478EE /* ChorusArtistsViewController.m */; };
+		6397CC211C0C41AC002478EE /* ChorusBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6397CBE31C0C41AC002478EE /* ChorusBaseTableViewCell.m */; };
+		6397CC221C0C41AC002478EE /* ChorusBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6397CBE51C0C41AC002478EE /* ChorusBaseTableViewController.m */; };
+		6397CC231C0C41AC002478EE /* ChorusBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6397CBE71C0C41AC002478EE /* ChorusBaseViewController.m */; };
+		6397CC241C0C41AC002478EE /* ChorusContainerSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 6397CBE91C0C41AC002478EE /* ChorusContainerSegue.m */; };
+		6397CC251C0C41AC002478EE /* ChorusContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6397CBEB1C0C41AC002478EE /* ChorusContainerViewController.m */; };
+		6397CC261C0C41AC002478EE /* ChorusIndexSectionHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 6397CBED1C0C41AC002478EE /* ChorusIndexSectionHeader.m */; };
+		6397CC271C0C41AC002478EE /* ChorusIndexSectionHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6397CBEE1C0C41AC002478EE /* ChorusIndexSectionHeader.xib */; };
+		6397CC281C0C41AC002478EE /* ChorusLastFMUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 6397CBF01C0C41AC002478EE /* ChorusLastFMUtility.m */; };
+		6397CC291C0C41AC002478EE /* chorusMediaPlayer-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6397CBF11C0C41AC002478EE /* chorusMediaPlayer-Info.plist */; };
+		6397CC2A1C0C41AC002478EE /* ChorusMediaUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 6397CBF41C0C41AC002478EE /* ChorusMediaUtility.m */; };
+		6397CC2B1C0C41AC002478EE /* ChorusNowPlayingSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 6397CBF61C0C41AC002478EE /* ChorusNowPlayingSegue.m */; };
+		6397CC2C1C0C41AC002478EE /* ChorusNowPlayingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6397CBF81C0C41AC002478EE /* ChorusNowPlayingViewController.m */; };
+		6397CC2D1C0C41AC002478EE /* ChorusSharedCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 6397CBFA1C0C41AC002478EE /* ChorusSharedCache.m */; };
+		6397CC2E1C0C41AC002478EE /* ChorusSongsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6397CBFC1C0C41AC002478EE /* ChorusSongsCell.m */; };
+		6397CC2F1C0C41AC002478EE /* ChorusSongsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6397CBFD1C0C41AC002478EE /* ChorusSongsCell.xib */; };
+		6397CC301C0C41AC002478EE /* ChorusSongsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6397CBFF1C0C41AC002478EE /* ChorusSongsViewController.m */; };
+		6397CC311C0C41AC002478EE /* ChorusTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6397CC011C0C41AC002478EE /* ChorusTabBarController.m */; };
+		6397CC321C0C41AC002478EE /* ChorusTopBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6397CC031C0C41AC002478EE /* ChorusTopBarViewController.m */; };
+		6397CC331C0C41AC002478EE /* ChorusUIUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 6397CC051C0C41AC002478EE /* ChorusUIUtility.m */; };
+		6397CC341C0C41AC002478EE /* ChorusWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6397CC071C0C41AC002478EE /* ChorusWebViewController.m */; };
+		6397CC351C0C41AC002478EE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6397CC0A1C0C41AC002478EE /* Images.xcassets */; };
+		6397CC361C0C41AC002478EE /* UIColor+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6397CC0C1C0C41AC002478EE /* UIColor+Extensions.m */; };
+		6397CC371C0C41AC002478EE /* UINavigationController+ViewControllers.m in Sources */ = {isa = PBXBuildFile; fileRef = 6397CC0E1C0C41AC002478EE /* UINavigationController+ViewControllers.m */; };
+		6397CC381C0C41AC002478EE /* UIView+Animations.m in Sources */ = {isa = PBXBuildFile; fileRef = 6397CC101C0C41AC002478EE /* UIView+Animations.m */; };
+		6397CC391C0C41AC002478EE /* UIView+Effects.m in Sources */ = {isa = PBXBuildFile; fileRef = 6397CC121C0C41AC002478EE /* UIView+Effects.m */; };
+		6397CC3A1C0C41AC002478EE /* UIView+Frames.m in Sources */ = {isa = PBXBuildFile; fileRef = 6397CC141C0C41AC002478EE /* UIView+Frames.m */; };
 		63C0A1701C0C247500A94DAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C0A16F1C0C247500A94DAA /* main.m */; };
 		63C0A1731C0C247500A94DAA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C0A1721C0C247500A94DAA /* AppDelegate.m */; };
-		63C0A1761C0C247500A94DAA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C0A1751C0C247500A94DAA /* ViewController.m */; };
 		63C0A1791C0C247500A94DAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63C0A1771C0C247500A94DAA /* Main.storyboard */; };
 		63C0A17E1C0C247500A94DAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63C0A17C1C0C247500A94DAA /* LaunchScreen.storyboard */; };
 		9AD0236D5CA831003FFFE846 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 505DBA4AEF7D43A58F95678F /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		17FA729DB0B901370E0A0C50 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		0AB459D8AE6D8EF9F2E5B8A9 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		2D92ED67D739299B3790A440 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		505DBA4AEF7D43A58F95678F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		630B9D5C1C0C2E2300A1D6DA /* ChorusSharedCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChorusSharedCache.h; sourceTree = "<group>"; };
-		630B9D5D1C0C2E2300A1D6DA /* ChorusSharedCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChorusSharedCache.m; sourceTree = "<group>"; };
-		630B9D621C0C30E500A1D6DA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		63812C921C0C2B3E0012A687 /* ChorusAlbumsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChorusAlbumsCell.h; sourceTree = "<group>"; };
-		63812C931C0C2B3E0012A687 /* ChorusAlbumsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChorusAlbumsCell.m; sourceTree = "<group>"; };
-		63812C941C0C2B3E0012A687 /* ChorusAlbumsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChorusAlbumsCell.xib; sourceTree = "<group>"; };
-		63812C951C0C2B3E0012A687 /* ChorusAlbumSectionHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChorusAlbumSectionHeader.h; sourceTree = "<group>"; };
-		63812C961C0C2B3E0012A687 /* ChorusAlbumSectionHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChorusAlbumSectionHeader.m; sourceTree = "<group>"; };
-		63812C971C0C2B3E0012A687 /* ChorusAlbumSectionHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChorusAlbumSectionHeader.xib; sourceTree = "<group>"; };
-		63812C981C0C2B3E0012A687 /* ChorusAlbumsSongsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChorusAlbumsSongsCell.h; sourceTree = "<group>"; };
-		63812C991C0C2B3E0012A687 /* ChorusAlbumsSongsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChorusAlbumsSongsCell.m; sourceTree = "<group>"; };
-		63812C9A1C0C2B3E0012A687 /* ChorusAlbumsSongsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChorusAlbumsSongsCell.xib; sourceTree = "<group>"; };
-		63812C9B1C0C2B3E0012A687 /* ChorusAlbumsSongsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChorusAlbumsSongsViewController.h; sourceTree = "<group>"; };
-		63812C9C1C0C2B3E0012A687 /* ChorusAlbumsSongsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChorusAlbumsSongsViewController.m; sourceTree = "<group>"; };
-		63812C9D1C0C2B3E0012A687 /* ChorusAlbumsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChorusAlbumsViewController.h; sourceTree = "<group>"; };
-		63812C9E1C0C2B3E0012A687 /* ChorusAlbumsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChorusAlbumsViewController.m; sourceTree = "<group>"; };
-		63812C9F1C0C2B3E0012A687 /* ChorusAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChorusAppDelegate.h; sourceTree = "<group>"; };
-		63812CA01C0C2B3E0012A687 /* ChorusAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChorusAppDelegate.m; sourceTree = "<group>"; };
-		63812CA11C0C2B3E0012A687 /* ChorusArtistsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChorusArtistsCell.h; sourceTree = "<group>"; };
-		63812CA21C0C2B3E0012A687 /* ChorusArtistsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChorusArtistsCell.m; sourceTree = "<group>"; };
-		63812CA31C0C2B3E0012A687 /* ChorusArtistsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChorusArtistsCell.xib; sourceTree = "<group>"; };
-		63812CA41C0C2B3E0012A687 /* ChorusArtistsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChorusArtistsViewController.h; sourceTree = "<group>"; };
-		63812CA51C0C2B3E0012A687 /* ChorusArtistsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChorusArtistsViewController.m; sourceTree = "<group>"; };
-		63812CA61C0C2B3E0012A687 /* ChorusBaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChorusBaseTableViewCell.h; sourceTree = "<group>"; };
-		63812CA71C0C2B3E0012A687 /* ChorusBaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChorusBaseTableViewCell.m; sourceTree = "<group>"; };
-		63812CA81C0C2B3E0012A687 /* ChorusBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChorusBaseTableViewController.h; sourceTree = "<group>"; };
-		63812CA91C0C2B3E0012A687 /* ChorusBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChorusBaseTableViewController.m; sourceTree = "<group>"; };
-		63812CAA1C0C2B3E0012A687 /* ChorusBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChorusBaseViewController.h; sourceTree = "<group>"; };
-		63812CAB1C0C2B3E0012A687 /* ChorusBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChorusBaseViewController.m; sourceTree = "<group>"; };
-		63812CAC1C0C2B3E0012A687 /* ChorusContainerSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChorusContainerSegue.h; sourceTree = "<group>"; };
-		63812CAD1C0C2B3E0012A687 /* ChorusContainerSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChorusContainerSegue.m; sourceTree = "<group>"; };
-		63812CAE1C0C2B3E0012A687 /* ChorusContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChorusContainerViewController.h; sourceTree = "<group>"; };
-		63812CAF1C0C2B3E0012A687 /* ChorusContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChorusContainerViewController.m; sourceTree = "<group>"; };
-		63812CB01C0C2B3E0012A687 /* ChorusIndexSectionHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChorusIndexSectionHeader.h; sourceTree = "<group>"; };
-		63812CB11C0C2B3E0012A687 /* ChorusIndexSectionHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChorusIndexSectionHeader.m; sourceTree = "<group>"; };
-		63812CB21C0C2B3E0012A687 /* ChorusIndexSectionHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChorusIndexSectionHeader.xib; sourceTree = "<group>"; };
-		63812CB31C0C2B3E0012A687 /* ChorusLastFMUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChorusLastFMUtility.h; sourceTree = "<group>"; };
-		63812CB41C0C2B3E0012A687 /* ChorusLastFMUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChorusLastFMUtility.m; sourceTree = "<group>"; };
-		63812CB51C0C2B3E0012A687 /* chorusMediaPlayer-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "chorusMediaPlayer-Info.plist"; sourceTree = "<group>"; };
-		63812CB61C0C2B3E0012A687 /* chorusMediaPlayer-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "chorusMediaPlayer-Prefix.pch"; sourceTree = "<group>"; };
-		63812CB71C0C2B3E0012A687 /* ChorusMediaUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChorusMediaUtility.h; sourceTree = "<group>"; };
-		63812CB81C0C2B3E0012A687 /* ChorusMediaUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChorusMediaUtility.m; sourceTree = "<group>"; };
-		63812CB91C0C2B3E0012A687 /* ChorusNowPlayingSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChorusNowPlayingSegue.h; sourceTree = "<group>"; };
-		63812CBA1C0C2B3E0012A687 /* ChorusNowPlayingSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChorusNowPlayingSegue.m; sourceTree = "<group>"; };
-		63812CBB1C0C2B3E0012A687 /* ChorusNowPlayingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChorusNowPlayingViewController.h; sourceTree = "<group>"; };
-		63812CBC1C0C2B3E0012A687 /* ChorusNowPlayingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChorusNowPlayingViewController.m; sourceTree = "<group>"; };
-		63812CBF1C0C2B3E0012A687 /* ChorusSongsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChorusSongsCell.h; sourceTree = "<group>"; };
-		63812CC01C0C2B3E0012A687 /* ChorusSongsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChorusSongsCell.m; sourceTree = "<group>"; };
-		63812CC11C0C2B3E0012A687 /* ChorusSongsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChorusSongsCell.xib; sourceTree = "<group>"; };
-		63812CC21C0C2B3E0012A687 /* ChorusSongsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChorusSongsViewController.h; sourceTree = "<group>"; };
-		63812CC31C0C2B3E0012A687 /* ChorusSongsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChorusSongsViewController.m; sourceTree = "<group>"; };
-		63812CC41C0C2B3E0012A687 /* ChorusTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChorusTabBarController.h; sourceTree = "<group>"; };
-		63812CC51C0C2B3E0012A687 /* ChorusTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChorusTabBarController.m; sourceTree = "<group>"; };
-		63812CC61C0C2B3E0012A687 /* ChorusTopBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChorusTopBarViewController.h; sourceTree = "<group>"; };
-		63812CC71C0C2B3E0012A687 /* ChorusTopBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChorusTopBarViewController.m; sourceTree = "<group>"; };
-		63812CC81C0C2B3E0012A687 /* ChorusUIUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChorusUIUtility.h; sourceTree = "<group>"; };
-		63812CC91C0C2B3E0012A687 /* ChorusUIUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChorusUIUtility.m; sourceTree = "<group>"; };
-		63812CCA1C0C2B3E0012A687 /* ChorusWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChorusWebViewController.h; sourceTree = "<group>"; };
-		63812CCB1C0C2B3E0012A687 /* ChorusWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChorusWebViewController.m; sourceTree = "<group>"; };
-		63812CCC1C0C2B3E0012A687 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
-		63812CD01C0C2B3E0012A687 /* UIColor+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extensions.h"; sourceTree = "<group>"; };
-		63812CD11C0C2B3E0012A687 /* UIColor+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extensions.m"; sourceTree = "<group>"; };
-		63812CD21C0C2B3E0012A687 /* UINavigationController+ViewControllers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+ViewControllers.h"; sourceTree = "<group>"; };
-		63812CD31C0C2B3E0012A687 /* UINavigationController+ViewControllers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+ViewControllers.m"; sourceTree = "<group>"; };
-		63812CD41C0C2B3E0012A687 /* UIView+Animations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Animations.h"; sourceTree = "<group>"; };
-		63812CD51C0C2B3E0012A687 /* UIView+Animations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Animations.m"; sourceTree = "<group>"; };
-		63812CD61C0C2B3E0012A687 /* UIView+Effects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Effects.h"; sourceTree = "<group>"; };
-		63812CD71C0C2B3E0012A687 /* UIView+Effects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Effects.m"; sourceTree = "<group>"; };
-		63812CD81C0C2B3E0012A687 /* UIView+Frames.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frames.h"; sourceTree = "<group>"; };
-		63812CD91C0C2B3E0012A687 /* UIView+Frames.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frames.m"; sourceTree = "<group>"; };
+		6397CBCE1C0C41AC002478EE /* ChorusAlbumsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChorusAlbumsCell.h; path = Chorus/ChorusAlbumsCell.h; sourceTree = "<group>"; };
+		6397CBCF1C0C41AC002478EE /* ChorusAlbumsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChorusAlbumsCell.m; path = Chorus/ChorusAlbumsCell.m; sourceTree = "<group>"; };
+		6397CBD01C0C41AC002478EE /* ChorusAlbumsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ChorusAlbumsCell.xib; path = Chorus/ChorusAlbumsCell.xib; sourceTree = "<group>"; };
+		6397CBD11C0C41AC002478EE /* ChorusAlbumSectionHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChorusAlbumSectionHeader.h; path = Chorus/ChorusAlbumSectionHeader.h; sourceTree = "<group>"; };
+		6397CBD21C0C41AC002478EE /* ChorusAlbumSectionHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChorusAlbumSectionHeader.m; path = Chorus/ChorusAlbumSectionHeader.m; sourceTree = "<group>"; };
+		6397CBD31C0C41AC002478EE /* ChorusAlbumSectionHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ChorusAlbumSectionHeader.xib; path = Chorus/ChorusAlbumSectionHeader.xib; sourceTree = "<group>"; };
+		6397CBD41C0C41AC002478EE /* ChorusAlbumsSongsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChorusAlbumsSongsCell.h; path = Chorus/ChorusAlbumsSongsCell.h; sourceTree = "<group>"; };
+		6397CBD51C0C41AC002478EE /* ChorusAlbumsSongsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChorusAlbumsSongsCell.m; path = Chorus/ChorusAlbumsSongsCell.m; sourceTree = "<group>"; };
+		6397CBD61C0C41AC002478EE /* ChorusAlbumsSongsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ChorusAlbumsSongsCell.xib; path = Chorus/ChorusAlbumsSongsCell.xib; sourceTree = "<group>"; };
+		6397CBD71C0C41AC002478EE /* ChorusAlbumsSongsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChorusAlbumsSongsViewController.h; path = Chorus/ChorusAlbumsSongsViewController.h; sourceTree = "<group>"; };
+		6397CBD81C0C41AC002478EE /* ChorusAlbumsSongsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChorusAlbumsSongsViewController.m; path = Chorus/ChorusAlbumsSongsViewController.m; sourceTree = "<group>"; };
+		6397CBD91C0C41AC002478EE /* ChorusAlbumsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChorusAlbumsViewController.h; path = Chorus/ChorusAlbumsViewController.h; sourceTree = "<group>"; };
+		6397CBDA1C0C41AC002478EE /* ChorusAlbumsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChorusAlbumsViewController.m; path = Chorus/ChorusAlbumsViewController.m; sourceTree = "<group>"; };
+		6397CBDB1C0C41AC002478EE /* ChorusAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChorusAppDelegate.h; path = Chorus/ChorusAppDelegate.h; sourceTree = "<group>"; };
+		6397CBDC1C0C41AC002478EE /* ChorusAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChorusAppDelegate.m; path = Chorus/ChorusAppDelegate.m; sourceTree = "<group>"; };
+		6397CBDD1C0C41AC002478EE /* ChorusArtistsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChorusArtistsCell.h; path = Chorus/ChorusArtistsCell.h; sourceTree = "<group>"; };
+		6397CBDE1C0C41AC002478EE /* ChorusArtistsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChorusArtistsCell.m; path = Chorus/ChorusArtistsCell.m; sourceTree = "<group>"; };
+		6397CBDF1C0C41AC002478EE /* ChorusArtistsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ChorusArtistsCell.xib; path = Chorus/ChorusArtistsCell.xib; sourceTree = "<group>"; };
+		6397CBE01C0C41AC002478EE /* ChorusArtistsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChorusArtistsViewController.h; path = Chorus/ChorusArtistsViewController.h; sourceTree = "<group>"; };
+		6397CBE11C0C41AC002478EE /* ChorusArtistsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChorusArtistsViewController.m; path = Chorus/ChorusArtistsViewController.m; sourceTree = "<group>"; };
+		6397CBE21C0C41AC002478EE /* ChorusBaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChorusBaseTableViewCell.h; path = Chorus/ChorusBaseTableViewCell.h; sourceTree = "<group>"; };
+		6397CBE31C0C41AC002478EE /* ChorusBaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChorusBaseTableViewCell.m; path = Chorus/ChorusBaseTableViewCell.m; sourceTree = "<group>"; };
+		6397CBE41C0C41AC002478EE /* ChorusBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChorusBaseTableViewController.h; path = Chorus/ChorusBaseTableViewController.h; sourceTree = "<group>"; };
+		6397CBE51C0C41AC002478EE /* ChorusBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChorusBaseTableViewController.m; path = Chorus/ChorusBaseTableViewController.m; sourceTree = "<group>"; };
+		6397CBE61C0C41AC002478EE /* ChorusBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChorusBaseViewController.h; path = Chorus/ChorusBaseViewController.h; sourceTree = "<group>"; };
+		6397CBE71C0C41AC002478EE /* ChorusBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChorusBaseViewController.m; path = Chorus/ChorusBaseViewController.m; sourceTree = "<group>"; };
+		6397CBE81C0C41AC002478EE /* ChorusContainerSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChorusContainerSegue.h; path = Chorus/ChorusContainerSegue.h; sourceTree = "<group>"; };
+		6397CBE91C0C41AC002478EE /* ChorusContainerSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChorusContainerSegue.m; path = Chorus/ChorusContainerSegue.m; sourceTree = "<group>"; };
+		6397CBEA1C0C41AC002478EE /* ChorusContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChorusContainerViewController.h; path = Chorus/ChorusContainerViewController.h; sourceTree = "<group>"; };
+		6397CBEB1C0C41AC002478EE /* ChorusContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChorusContainerViewController.m; path = Chorus/ChorusContainerViewController.m; sourceTree = "<group>"; };
+		6397CBEC1C0C41AC002478EE /* ChorusIndexSectionHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChorusIndexSectionHeader.h; path = Chorus/ChorusIndexSectionHeader.h; sourceTree = "<group>"; };
+		6397CBED1C0C41AC002478EE /* ChorusIndexSectionHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChorusIndexSectionHeader.m; path = Chorus/ChorusIndexSectionHeader.m; sourceTree = "<group>"; };
+		6397CBEE1C0C41AC002478EE /* ChorusIndexSectionHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ChorusIndexSectionHeader.xib; path = Chorus/ChorusIndexSectionHeader.xib; sourceTree = "<group>"; };
+		6397CBEF1C0C41AC002478EE /* ChorusLastFMUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChorusLastFMUtility.h; path = Chorus/ChorusLastFMUtility.h; sourceTree = "<group>"; };
+		6397CBF01C0C41AC002478EE /* ChorusLastFMUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChorusLastFMUtility.m; path = Chorus/ChorusLastFMUtility.m; sourceTree = "<group>"; };
+		6397CBF11C0C41AC002478EE /* chorusMediaPlayer-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "chorusMediaPlayer-Info.plist"; path = "Chorus/chorusMediaPlayer-Info.plist"; sourceTree = "<group>"; };
+		6397CBF21C0C41AC002478EE /* chorusMediaPlayer-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "chorusMediaPlayer-Prefix.pch"; path = "Chorus/chorusMediaPlayer-Prefix.pch"; sourceTree = "<group>"; };
+		6397CBF31C0C41AC002478EE /* ChorusMediaUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChorusMediaUtility.h; path = Chorus/ChorusMediaUtility.h; sourceTree = "<group>"; };
+		6397CBF41C0C41AC002478EE /* ChorusMediaUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChorusMediaUtility.m; path = Chorus/ChorusMediaUtility.m; sourceTree = "<group>"; };
+		6397CBF51C0C41AC002478EE /* ChorusNowPlayingSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChorusNowPlayingSegue.h; path = Chorus/ChorusNowPlayingSegue.h; sourceTree = "<group>"; };
+		6397CBF61C0C41AC002478EE /* ChorusNowPlayingSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChorusNowPlayingSegue.m; path = Chorus/ChorusNowPlayingSegue.m; sourceTree = "<group>"; };
+		6397CBF71C0C41AC002478EE /* ChorusNowPlayingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChorusNowPlayingViewController.h; path = Chorus/ChorusNowPlayingViewController.h; sourceTree = "<group>"; };
+		6397CBF81C0C41AC002478EE /* ChorusNowPlayingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChorusNowPlayingViewController.m; path = Chorus/ChorusNowPlayingViewController.m; sourceTree = "<group>"; };
+		6397CBF91C0C41AC002478EE /* ChorusSharedCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChorusSharedCache.h; path = Chorus/ChorusSharedCache.h; sourceTree = "<group>"; };
+		6397CBFA1C0C41AC002478EE /* ChorusSharedCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChorusSharedCache.m; path = Chorus/ChorusSharedCache.m; sourceTree = "<group>"; };
+		6397CBFB1C0C41AC002478EE /* ChorusSongsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChorusSongsCell.h; path = Chorus/ChorusSongsCell.h; sourceTree = "<group>"; };
+		6397CBFC1C0C41AC002478EE /* ChorusSongsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChorusSongsCell.m; path = Chorus/ChorusSongsCell.m; sourceTree = "<group>"; };
+		6397CBFD1C0C41AC002478EE /* ChorusSongsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ChorusSongsCell.xib; path = Chorus/ChorusSongsCell.xib; sourceTree = "<group>"; };
+		6397CBFE1C0C41AC002478EE /* ChorusSongsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChorusSongsViewController.h; path = Chorus/ChorusSongsViewController.h; sourceTree = "<group>"; };
+		6397CBFF1C0C41AC002478EE /* ChorusSongsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChorusSongsViewController.m; path = Chorus/ChorusSongsViewController.m; sourceTree = "<group>"; };
+		6397CC001C0C41AC002478EE /* ChorusTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChorusTabBarController.h; path = Chorus/ChorusTabBarController.h; sourceTree = "<group>"; };
+		6397CC011C0C41AC002478EE /* ChorusTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChorusTabBarController.m; path = Chorus/ChorusTabBarController.m; sourceTree = "<group>"; };
+		6397CC021C0C41AC002478EE /* ChorusTopBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChorusTopBarViewController.h; path = Chorus/ChorusTopBarViewController.h; sourceTree = "<group>"; };
+		6397CC031C0C41AC002478EE /* ChorusTopBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChorusTopBarViewController.m; path = Chorus/ChorusTopBarViewController.m; sourceTree = "<group>"; };
+		6397CC041C0C41AC002478EE /* ChorusUIUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChorusUIUtility.h; path = Chorus/ChorusUIUtility.h; sourceTree = "<group>"; };
+		6397CC051C0C41AC002478EE /* ChorusUIUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChorusUIUtility.m; path = Chorus/ChorusUIUtility.m; sourceTree = "<group>"; };
+		6397CC061C0C41AC002478EE /* ChorusWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChorusWebViewController.h; path = Chorus/ChorusWebViewController.h; sourceTree = "<group>"; };
+		6397CC071C0C41AC002478EE /* ChorusWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChorusWebViewController.m; path = Chorus/ChorusWebViewController.m; sourceTree = "<group>"; };
+		6397CC081C0C41AC002478EE /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = Chorus/Constants.h; sourceTree = "<group>"; };
+		6397CC0A1C0C41AC002478EE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Chorus/Images.xcassets; sourceTree = "<group>"; };
+		6397CC0B1C0C41AC002478EE /* UIColor+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+Extensions.h"; path = "Chorus/UIColor+Extensions.h"; sourceTree = "<group>"; };
+		6397CC0C1C0C41AC002478EE /* UIColor+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Extensions.m"; path = "Chorus/UIColor+Extensions.m"; sourceTree = "<group>"; };
+		6397CC0D1C0C41AC002478EE /* UINavigationController+ViewControllers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+ViewControllers.h"; path = "Chorus/UINavigationController+ViewControllers.h"; sourceTree = "<group>"; };
+		6397CC0E1C0C41AC002478EE /* UINavigationController+ViewControllers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+ViewControllers.m"; path = "Chorus/UINavigationController+ViewControllers.m"; sourceTree = "<group>"; };
+		6397CC0F1C0C41AC002478EE /* UIView+Animations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Animations.h"; path = "Chorus/UIView+Animations.h"; sourceTree = "<group>"; };
+		6397CC101C0C41AC002478EE /* UIView+Animations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Animations.m"; path = "Chorus/UIView+Animations.m"; sourceTree = "<group>"; };
+		6397CC111C0C41AC002478EE /* UIView+Effects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Effects.h"; path = "Chorus/UIView+Effects.h"; sourceTree = "<group>"; };
+		6397CC121C0C41AC002478EE /* UIView+Effects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Effects.m"; path = "Chorus/UIView+Effects.m"; sourceTree = "<group>"; };
+		6397CC131C0C41AC002478EE /* UIView+Frames.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Frames.h"; path = "Chorus/UIView+Frames.h"; sourceTree = "<group>"; };
+		6397CC141C0C41AC002478EE /* UIView+Frames.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Frames.m"; path = "Chorus/UIView+Frames.m"; sourceTree = "<group>"; };
 		63C0A16B1C0C247500A94DAA /* Scene_Music.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scene_Music.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63C0A16F1C0C247500A94DAA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		63C0A1711C0C247500A94DAA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		63C0A1721C0C247500A94DAA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		63C0A1741C0C247500A94DAA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		63C0A1751C0C247500A94DAA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		63C0A1781C0C247500A94DAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		63C0A17D1C0C247500A94DAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63C0A17F1C0C247500A94DAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EF8717DCB6D48DDD8DC1CF5A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,81 +147,90 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		63812C7B1C0C28B90012A687 /* Chorus */ = {
+		6397CBCB1C0C4172002478EE /* Chorus */ = {
 			isa = PBXGroup;
 			children = (
-				630B9D621C0C30E500A1D6DA /* Images.xcassets */,
-				630B9D5C1C0C2E2300A1D6DA /* ChorusSharedCache.h */,
-				630B9D5D1C0C2E2300A1D6DA /* ChorusSharedCache.m */,
-				63812C921C0C2B3E0012A687 /* ChorusAlbumsCell.h */,
-				63812C931C0C2B3E0012A687 /* ChorusAlbumsCell.m */,
-				63812C941C0C2B3E0012A687 /* ChorusAlbumsCell.xib */,
-				63812C951C0C2B3E0012A687 /* ChorusAlbumSectionHeader.h */,
-				63812C961C0C2B3E0012A687 /* ChorusAlbumSectionHeader.m */,
-				63812C971C0C2B3E0012A687 /* ChorusAlbumSectionHeader.xib */,
-				63812C981C0C2B3E0012A687 /* ChorusAlbumsSongsCell.h */,
-				63812C991C0C2B3E0012A687 /* ChorusAlbumsSongsCell.m */,
-				63812C9A1C0C2B3E0012A687 /* ChorusAlbumsSongsCell.xib */,
-				63812C9B1C0C2B3E0012A687 /* ChorusAlbumsSongsViewController.h */,
-				63812C9C1C0C2B3E0012A687 /* ChorusAlbumsSongsViewController.m */,
-				63812C9D1C0C2B3E0012A687 /* ChorusAlbumsViewController.h */,
-				63812C9E1C0C2B3E0012A687 /* ChorusAlbumsViewController.m */,
-				63812C9F1C0C2B3E0012A687 /* ChorusAppDelegate.h */,
-				63812CA01C0C2B3E0012A687 /* ChorusAppDelegate.m */,
-				63812CA11C0C2B3E0012A687 /* ChorusArtistsCell.h */,
-				63812CA21C0C2B3E0012A687 /* ChorusArtistsCell.m */,
-				63812CA31C0C2B3E0012A687 /* ChorusArtistsCell.xib */,
-				63812CA41C0C2B3E0012A687 /* ChorusArtistsViewController.h */,
-				63812CA51C0C2B3E0012A687 /* ChorusArtistsViewController.m */,
-				63812CA61C0C2B3E0012A687 /* ChorusBaseTableViewCell.h */,
-				63812CA71C0C2B3E0012A687 /* ChorusBaseTableViewCell.m */,
-				63812CA81C0C2B3E0012A687 /* ChorusBaseTableViewController.h */,
-				63812CA91C0C2B3E0012A687 /* ChorusBaseTableViewController.m */,
-				63812CAA1C0C2B3E0012A687 /* ChorusBaseViewController.h */,
-				63812CAB1C0C2B3E0012A687 /* ChorusBaseViewController.m */,
-				63812CAC1C0C2B3E0012A687 /* ChorusContainerSegue.h */,
-				63812CAD1C0C2B3E0012A687 /* ChorusContainerSegue.m */,
-				63812CAE1C0C2B3E0012A687 /* ChorusContainerViewController.h */,
-				63812CAF1C0C2B3E0012A687 /* ChorusContainerViewController.m */,
-				63812CB01C0C2B3E0012A687 /* ChorusIndexSectionHeader.h */,
-				63812CB11C0C2B3E0012A687 /* ChorusIndexSectionHeader.m */,
-				63812CB21C0C2B3E0012A687 /* ChorusIndexSectionHeader.xib */,
-				63812CB31C0C2B3E0012A687 /* ChorusLastFMUtility.h */,
-				63812CB41C0C2B3E0012A687 /* ChorusLastFMUtility.m */,
-				63812CB51C0C2B3E0012A687 /* chorusMediaPlayer-Info.plist */,
-				63812CB61C0C2B3E0012A687 /* chorusMediaPlayer-Prefix.pch */,
-				63812CB71C0C2B3E0012A687 /* ChorusMediaUtility.h */,
-				63812CB81C0C2B3E0012A687 /* ChorusMediaUtility.m */,
-				63812CB91C0C2B3E0012A687 /* ChorusNowPlayingSegue.h */,
-				63812CBA1C0C2B3E0012A687 /* ChorusNowPlayingSegue.m */,
-				63812CBB1C0C2B3E0012A687 /* ChorusNowPlayingViewController.h */,
-				63812CBC1C0C2B3E0012A687 /* ChorusNowPlayingViewController.m */,
-				63812CBF1C0C2B3E0012A687 /* ChorusSongsCell.h */,
-				63812CC01C0C2B3E0012A687 /* ChorusSongsCell.m */,
-				63812CC11C0C2B3E0012A687 /* ChorusSongsCell.xib */,
-				63812CC21C0C2B3E0012A687 /* ChorusSongsViewController.h */,
-				63812CC31C0C2B3E0012A687 /* ChorusSongsViewController.m */,
-				63812CC41C0C2B3E0012A687 /* ChorusTabBarController.h */,
-				63812CC51C0C2B3E0012A687 /* ChorusTabBarController.m */,
-				63812CC61C0C2B3E0012A687 /* ChorusTopBarViewController.h */,
-				63812CC71C0C2B3E0012A687 /* ChorusTopBarViewController.m */,
-				63812CC81C0C2B3E0012A687 /* ChorusUIUtility.h */,
-				63812CC91C0C2B3E0012A687 /* ChorusUIUtility.m */,
-				63812CCA1C0C2B3E0012A687 /* ChorusWebViewController.h */,
-				63812CCB1C0C2B3E0012A687 /* ChorusWebViewController.m */,
-				63812CCC1C0C2B3E0012A687 /* Constants.h */,
-				63812CD01C0C2B3E0012A687 /* UIColor+Extensions.h */,
-				63812CD11C0C2B3E0012A687 /* UIColor+Extensions.m */,
-				63812CD21C0C2B3E0012A687 /* UINavigationController+ViewControllers.h */,
-				63812CD31C0C2B3E0012A687 /* UINavigationController+ViewControllers.m */,
-				63812CD41C0C2B3E0012A687 /* UIView+Animations.h */,
-				63812CD51C0C2B3E0012A687 /* UIView+Animations.m */,
-				63812CD61C0C2B3E0012A687 /* UIView+Effects.h */,
-				63812CD71C0C2B3E0012A687 /* UIView+Effects.m */,
-				63812CD81C0C2B3E0012A687 /* UIView+Frames.h */,
-				63812CD91C0C2B3E0012A687 /* UIView+Frames.m */,
+				6397CBCE1C0C41AC002478EE /* ChorusAlbumsCell.h */,
+				6397CBCF1C0C41AC002478EE /* ChorusAlbumsCell.m */,
+				6397CBD01C0C41AC002478EE /* ChorusAlbumsCell.xib */,
+				6397CBD11C0C41AC002478EE /* ChorusAlbumSectionHeader.h */,
+				6397CBD21C0C41AC002478EE /* ChorusAlbumSectionHeader.m */,
+				6397CBD31C0C41AC002478EE /* ChorusAlbumSectionHeader.xib */,
+				6397CBD41C0C41AC002478EE /* ChorusAlbumsSongsCell.h */,
+				6397CBD51C0C41AC002478EE /* ChorusAlbumsSongsCell.m */,
+				6397CBD61C0C41AC002478EE /* ChorusAlbumsSongsCell.xib */,
+				6397CBD71C0C41AC002478EE /* ChorusAlbumsSongsViewController.h */,
+				6397CBD81C0C41AC002478EE /* ChorusAlbumsSongsViewController.m */,
+				6397CBD91C0C41AC002478EE /* ChorusAlbumsViewController.h */,
+				6397CBDA1C0C41AC002478EE /* ChorusAlbumsViewController.m */,
+				6397CBDB1C0C41AC002478EE /* ChorusAppDelegate.h */,
+				6397CBDC1C0C41AC002478EE /* ChorusAppDelegate.m */,
+				6397CBDD1C0C41AC002478EE /* ChorusArtistsCell.h */,
+				6397CBDE1C0C41AC002478EE /* ChorusArtistsCell.m */,
+				6397CBDF1C0C41AC002478EE /* ChorusArtistsCell.xib */,
+				6397CBE01C0C41AC002478EE /* ChorusArtistsViewController.h */,
+				6397CBE11C0C41AC002478EE /* ChorusArtistsViewController.m */,
+				6397CBE21C0C41AC002478EE /* ChorusBaseTableViewCell.h */,
+				6397CBE31C0C41AC002478EE /* ChorusBaseTableViewCell.m */,
+				6397CBE41C0C41AC002478EE /* ChorusBaseTableViewController.h */,
+				6397CBE51C0C41AC002478EE /* ChorusBaseTableViewController.m */,
+				6397CBE61C0C41AC002478EE /* ChorusBaseViewController.h */,
+				6397CBE71C0C41AC002478EE /* ChorusBaseViewController.m */,
+				6397CBE81C0C41AC002478EE /* ChorusContainerSegue.h */,
+				6397CBE91C0C41AC002478EE /* ChorusContainerSegue.m */,
+				6397CBEA1C0C41AC002478EE /* ChorusContainerViewController.h */,
+				6397CBEB1C0C41AC002478EE /* ChorusContainerViewController.m */,
+				6397CBEC1C0C41AC002478EE /* ChorusIndexSectionHeader.h */,
+				6397CBED1C0C41AC002478EE /* ChorusIndexSectionHeader.m */,
+				6397CBEE1C0C41AC002478EE /* ChorusIndexSectionHeader.xib */,
+				6397CBEF1C0C41AC002478EE /* ChorusLastFMUtility.h */,
+				6397CBF01C0C41AC002478EE /* ChorusLastFMUtility.m */,
+				6397CBF11C0C41AC002478EE /* chorusMediaPlayer-Info.plist */,
+				6397CBF21C0C41AC002478EE /* chorusMediaPlayer-Prefix.pch */,
+				6397CBF31C0C41AC002478EE /* ChorusMediaUtility.h */,
+				6397CBF41C0C41AC002478EE /* ChorusMediaUtility.m */,
+				6397CBF51C0C41AC002478EE /* ChorusNowPlayingSegue.h */,
+				6397CBF61C0C41AC002478EE /* ChorusNowPlayingSegue.m */,
+				6397CBF71C0C41AC002478EE /* ChorusNowPlayingViewController.h */,
+				6397CBF81C0C41AC002478EE /* ChorusNowPlayingViewController.m */,
+				6397CBF91C0C41AC002478EE /* ChorusSharedCache.h */,
+				6397CBFA1C0C41AC002478EE /* ChorusSharedCache.m */,
+				6397CBFB1C0C41AC002478EE /* ChorusSongsCell.h */,
+				6397CBFC1C0C41AC002478EE /* ChorusSongsCell.m */,
+				6397CBFD1C0C41AC002478EE /* ChorusSongsCell.xib */,
+				6397CBFE1C0C41AC002478EE /* ChorusSongsViewController.h */,
+				6397CBFF1C0C41AC002478EE /* ChorusSongsViewController.m */,
+				6397CC001C0C41AC002478EE /* ChorusTabBarController.h */,
+				6397CC011C0C41AC002478EE /* ChorusTabBarController.m */,
+				6397CC021C0C41AC002478EE /* ChorusTopBarViewController.h */,
+				6397CC031C0C41AC002478EE /* ChorusTopBarViewController.m */,
+				6397CC041C0C41AC002478EE /* ChorusUIUtility.h */,
+				6397CC051C0C41AC002478EE /* ChorusUIUtility.m */,
+				6397CC061C0C41AC002478EE /* ChorusWebViewController.h */,
+				6397CC071C0C41AC002478EE /* ChorusWebViewController.m */,
+				6397CC081C0C41AC002478EE /* Constants.h */,
+				6397CC091C0C41AC002478EE /* en.lproj */,
+				6397CC0A1C0C41AC002478EE /* Images.xcassets */,
+				6397CC0B1C0C41AC002478EE /* UIColor+Extensions.h */,
+				6397CC0C1C0C41AC002478EE /* UIColor+Extensions.m */,
+				6397CC0D1C0C41AC002478EE /* UINavigationController+ViewControllers.h */,
+				6397CC0E1C0C41AC002478EE /* UINavigationController+ViewControllers.m */,
+				6397CC0F1C0C41AC002478EE /* UIView+Animations.h */,
+				6397CC101C0C41AC002478EE /* UIView+Animations.m */,
+				6397CC111C0C41AC002478EE /* UIView+Effects.h */,
+				6397CC121C0C41AC002478EE /* UIView+Effects.m */,
+				6397CC131C0C41AC002478EE /* UIView+Frames.h */,
+				6397CC141C0C41AC002478EE /* UIView+Frames.m */,
 			);
 			name = Chorus;
+			sourceTree = "<group>";
+		};
+		6397CC091C0C41AC002478EE /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = en.lproj;
+			path = Chorus/en.lproj;
 			sourceTree = "<group>";
 		};
 		63C0A1621C0C247500A94DAA = {
@@ -248,11 +254,9 @@
 		63C0A16D1C0C247500A94DAA /* Scene_Music */ = {
 			isa = PBXGroup;
 			children = (
-				63812C7B1C0C28B90012A687 /* Chorus */,
+				6397CBCB1C0C4172002478EE /* Chorus */,
 				63C0A1711C0C247500A94DAA /* AppDelegate.h */,
 				63C0A1721C0C247500A94DAA /* AppDelegate.m */,
-				63C0A1741C0C247500A94DAA /* ViewController.h */,
-				63C0A1751C0C247500A94DAA /* ViewController.m */,
 				63C0A1771C0C247500A94DAA /* Main.storyboard */,
 				63C0A17C1C0C247500A94DAA /* LaunchScreen.storyboard */,
 				63C0A17F1C0C247500A94DAA /* Info.plist */,
@@ -280,8 +284,8 @@
 		FCDCAA4F1A231209FBCCA2CC /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				17FA729DB0B901370E0A0C50 /* Pods.debug.xcconfig */,
-				EF8717DCB6D48DDD8DC1CF5A /* Pods.release.xcconfig */,
+				0AB459D8AE6D8EF9F2E5B8A9 /* Pods.debug.xcconfig */,
+				2D92ED67D739299B3790A440 /* Pods.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -347,16 +351,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63812CE41C0C2B3E0012A687 /* ChorusArtistsCell.xib in Resources */,
-				630B9D631C0C30E500A1D6DA /* Images.xcassets in Resources */,
+				6397CC2F1C0C41AC002478EE /* ChorusSongsCell.xib in Resources */,
+				6397CC351C0C41AC002478EE /* Images.xcassets in Resources */,
+				6397CC291C0C41AC002478EE /* chorusMediaPlayer-Info.plist in Resources */,
+				6397CC181C0C41AC002478EE /* ChorusAlbumSectionHeader.xib in Resources */,
 				63C0A17E1C0C247500A94DAA /* LaunchScreen.storyboard in Resources */,
-				63812CDD1C0C2B3E0012A687 /* ChorusAlbumSectionHeader.xib in Resources */,
-				63812CDB1C0C2B3E0012A687 /* ChorusAlbumsCell.xib in Resources */,
-				63812CDF1C0C2B3E0012A687 /* ChorusAlbumsSongsCell.xib in Resources */,
-				63812CF41C0C2B3E0012A687 /* ChorusSongsCell.xib in Resources */,
+				6397CC1F1C0C41AC002478EE /* ChorusArtistsCell.xib in Resources */,
+				6397CC161C0C41AC002478EE /* ChorusAlbumsCell.xib in Resources */,
 				63C0A1791C0C247500A94DAA /* Main.storyboard in Resources */,
-				63812CEC1C0C2B3E0012A687 /* ChorusIndexSectionHeader.xib in Resources */,
-				63812CEE1C0C2B3E0012A687 /* chorusMediaPlayer-Info.plist in Resources */,
+				6397CC1A1C0C41AC002478EE /* ChorusAlbumsSongsCell.xib in Resources */,
+				6397CC271C0C41AC002478EE /* ChorusIndexSectionHeader.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,39 +419,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63812CEB1C0C2B3E0012A687 /* ChorusIndexSectionHeader.m in Sources */,
-				63812CED1C0C2B3E0012A687 /* ChorusLastFMUtility.m in Sources */,
-				63812CF31C0C2B3E0012A687 /* ChorusSongsCell.m in Sources */,
-				63812CEA1C0C2B3E0012A687 /* ChorusContainerViewController.m in Sources */,
-				63812CEF1C0C2B3E0012A687 /* ChorusMediaUtility.m in Sources */,
-				630B9D5E1C0C2E2300A1D6DA /* ChorusSharedCache.m in Sources */,
-				63812CDE1C0C2B3E0012A687 /* ChorusAlbumsSongsCell.m in Sources */,
-				63812CFF1C0C2B3E0012A687 /* UIView+Frames.m in Sources */,
-				63812CE01C0C2B3E0012A687 /* ChorusAlbumsSongsViewController.m in Sources */,
-				63812CF81C0C2B3E0012A687 /* ChorusUIUtility.m in Sources */,
-				63812CE61C0C2B3E0012A687 /* ChorusBaseTableViewCell.m in Sources */,
-				63C0A1761C0C247500A94DAA /* ViewController.m in Sources */,
-				63812CE21C0C2B3E0012A687 /* ChorusAppDelegate.m in Sources */,
-				63812CFC1C0C2B3E0012A687 /* UINavigationController+ViewControllers.m in Sources */,
-				63812CF51C0C2B3E0012A687 /* ChorusSongsViewController.m in Sources */,
-				63812CF71C0C2B3E0012A687 /* ChorusTopBarViewController.m in Sources */,
-				63812CFE1C0C2B3E0012A687 /* UIView+Effects.m in Sources */,
-				63812CE81C0C2B3E0012A687 /* ChorusBaseViewController.m in Sources */,
-				63812CE51C0C2B3E0012A687 /* ChorusArtistsViewController.m in Sources */,
-				63812CF01C0C2B3E0012A687 /* ChorusNowPlayingSegue.m in Sources */,
-				63812CFB1C0C2B3E0012A687 /* UIColor+Extensions.m in Sources */,
-				63812CDA1C0C2B3E0012A687 /* ChorusAlbumsCell.m in Sources */,
-				63812CF11C0C2B3E0012A687 /* ChorusNowPlayingViewController.m in Sources */,
-				63812CF61C0C2B3E0012A687 /* ChorusTabBarController.m in Sources */,
-				63812CDC1C0C2B3E0012A687 /* ChorusAlbumSectionHeader.m in Sources */,
-				63812CF91C0C2B3E0012A687 /* ChorusWebViewController.m in Sources */,
-				63812CE31C0C2B3E0012A687 /* ChorusArtistsCell.m in Sources */,
+				6397CC221C0C41AC002478EE /* ChorusBaseTableViewController.m in Sources */,
+				6397CC341C0C41AC002478EE /* ChorusWebViewController.m in Sources */,
+				6397CC191C0C41AC002478EE /* ChorusAlbumsSongsCell.m in Sources */,
+				6397CC171C0C41AC002478EE /* ChorusAlbumSectionHeader.m in Sources */,
 				63C0A1731C0C247500A94DAA /* AppDelegate.m in Sources */,
-				63812CFD1C0C2B3E0012A687 /* UIView+Animations.m in Sources */,
-				63812CE11C0C2B3E0012A687 /* ChorusAlbumsViewController.m in Sources */,
-				63812CE71C0C2B3E0012A687 /* ChorusBaseTableViewController.m in Sources */,
-				63812CE91C0C2B3E0012A687 /* ChorusContainerSegue.m in Sources */,
+				6397CC151C0C41AC002478EE /* ChorusAlbumsCell.m in Sources */,
+				6397CC1C1C0C41AC002478EE /* ChorusAlbumsViewController.m in Sources */,
+				6397CC301C0C41AC002478EE /* ChorusSongsViewController.m in Sources */,
+				6397CC211C0C41AC002478EE /* ChorusBaseTableViewCell.m in Sources */,
+				6397CC241C0C41AC002478EE /* ChorusContainerSegue.m in Sources */,
+				6397CC251C0C41AC002478EE /* ChorusContainerViewController.m in Sources */,
 				63C0A1701C0C247500A94DAA /* main.m in Sources */,
+				6397CC3A1C0C41AC002478EE /* UIView+Frames.m in Sources */,
+				6397CC1E1C0C41AC002478EE /* ChorusArtistsCell.m in Sources */,
+				6397CC381C0C41AC002478EE /* UIView+Animations.m in Sources */,
+				6397CC2B1C0C41AC002478EE /* ChorusNowPlayingSegue.m in Sources */,
+				6397CC1D1C0C41AC002478EE /* ChorusAppDelegate.m in Sources */,
+				6397CC1B1C0C41AC002478EE /* ChorusAlbumsSongsViewController.m in Sources */,
+				6397CC311C0C41AC002478EE /* ChorusTabBarController.m in Sources */,
+				6397CC2D1C0C41AC002478EE /* ChorusSharedCache.m in Sources */,
+				6397CC321C0C41AC002478EE /* ChorusTopBarViewController.m in Sources */,
+				6397CC371C0C41AC002478EE /* UINavigationController+ViewControllers.m in Sources */,
+				6397CC201C0C41AC002478EE /* ChorusArtistsViewController.m in Sources */,
+				6397CC281C0C41AC002478EE /* ChorusLastFMUtility.m in Sources */,
+				6397CC331C0C41AC002478EE /* ChorusUIUtility.m in Sources */,
+				6397CC391C0C41AC002478EE /* UIView+Effects.m in Sources */,
+				6397CC2C1C0C41AC002478EE /* ChorusNowPlayingViewController.m in Sources */,
+				6397CC361C0C41AC002478EE /* UIColor+Extensions.m in Sources */,
+				6397CC2E1C0C41AC002478EE /* ChorusSongsCell.m in Sources */,
+				6397CC2A1C0C41AC002478EE /* ChorusMediaUtility.m in Sources */,
+				6397CC231C0C41AC002478EE /* ChorusBaseViewController.m in Sources */,
+				6397CC261C0C41AC002478EE /* ChorusIndexSectionHeader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -557,7 +560,7 @@
 		};
 		63C0A1831C0C247500A94DAA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 17FA729DB0B901370E0A0C50 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 0AB459D8AE6D8EF9F2E5B8A9 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Scene_Music/Info.plist;
@@ -569,7 +572,7 @@
 		};
 		63C0A1841C0C247500A94DAA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EF8717DCB6D48DDD8DC1CF5A /* Pods.release.xcconfig */;
+			baseConfigurationReference = 2D92ED67D739299B3790A440 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Scene_Music/Info.plist;
