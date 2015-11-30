@@ -45,7 +45,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     
-    self.audioPlayer = [MPMusicPlayerController iPodMusicPlayer];
+    self.audioPlayer = [MPMusicPlayerController applicationMusicPlayer];
     if (self.currentSongIndex < self.nowPlayingList.count) {
         MPMediaItem *song = [self.nowPlayingList objectAtIndex:self.currentSongIndex];
         MPMediaItemCollection *queue = [MPMediaItemCollection collectionWithItems:self.nowPlayingList];
@@ -116,12 +116,12 @@
 
 - (IBAction)actionNextButtonPressed:(id)sender {
     [self.audioPlayer skipToNextItem];
-    [ChorusUIUtility sharedInstance].currentTheme = ChorusThemeLight;
+    //[ChorusUIUtility sharedInstance].currentTheme = ChorusThemeLight;
 }
 
 - (IBAction)actionPreviousButtonPressed:(id)sender {
     [self.audioPlayer skipToPreviousItem];
-    [ChorusUIUtility sharedInstance].currentTheme = ChorusThemeDark;
+    //[ChorusUIUtility sharedInstance].currentTheme = ChorusThemeDark;
 }
 
 - (IBAction)actionDismissButtonPressed:(id)sender {

@@ -109,42 +109,6 @@
                             <view alpha="0.44999999999999962" contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="ef0-YF-BQT">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Nw9-6G-EWI" userLabel="buttonsContainerView">
-                                        <rect key="frame" x="15" y="360" width="290" height="50"/>
-                                        <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qM3-Bp-t2b" userLabel="previousButton">
-                                                <rect key="frame" x="20" y="10" width="30" height="30"/>
-                                                <state key="normal" title="prev">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                                </state>
-                                                <connections>
-                                                    <action selector="actionPreviousButtonPressed:" destination="6WH-Qz-SYB" eventType="touchUpInside" id="c7X-9G-9yt"/>
-                                                </connections>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6rC-k3-xJR" userLabel="playPauseButton">
-                                                <rect key="frame" x="104" y="10" width="70" height="30"/>
-                                                <state key="normal" title="play">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                                </state>
-                                                <connections>
-                                                    <action selector="actionPlayPauseButtonPressed:" destination="6WH-Qz-SYB" eventType="touchUpInside" id="tL8-23-vOe"/>
-                                                </connections>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fxw-ab-QCJ" userLabel="nextButton">
-                                                <rect key="frame" x="240" y="10" width="30" height="30"/>
-                                                <state key="normal" title="next">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                                </state>
-                                                <connections>
-                                                    <action selector="actionNextButtonPressed:" destination="6WH-Qz-SYB" eventType="touchUpInside" id="95A-VE-cFH"/>
-                                                </connections>
-                                            </button>
-                                        </subviews>
-                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                    </view>
                                     <view opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="59E-tn-R2z">
                                         <rect key="frame" x="0.0" y="30" width="320" height="322"/>
                                         <subviews>
@@ -180,6 +144,43 @@
                                             <action selector="actionDismissButtonPressed:" destination="6WH-Qz-SYB" eventType="touchUpInside" id="hT9-lT-V3z"/>
                                         </connections>
                                     </button>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Nw9-6G-EWI" userLabel="buttonsContainerView">
+                                        <rect key="frame" x="15" y="360" width="290" height="50"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6rC-k3-xJR" userLabel="playPauseButton">
+                                                <rect key="frame" x="110" y="8" width="70" height="30"/>
+                                                <state key="normal" title="play">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="actionPlayPauseButtonPressed:" destination="6WH-Qz-SYB" eventType="touchUpInside" id="tL8-23-vOe"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fxw-ab-QCJ" userLabel="nextButton">
+                                                <rect key="frame" x="240" y="10" width="30" height="30"/>
+                                                <state key="normal" title="next">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="actionNextButtonPressed:" destination="6WH-Qz-SYB" eventType="touchUpInside" id="95A-VE-cFH"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qM3-Bp-t2b" userLabel="previousButton">
+                                                <rect key="frame" x="32" y="9" width="38" height="28"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <state key="normal" title="prev">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                                    <color key="titleShadowColor" red="0.60000002384185791" green="0.40000000596046448" blue="0.20000000298023224" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="actionPreviousButtonPressed:" destination="6WH-Qz-SYB" eventType="touchUpInside" id="c7X-9G-9yt"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    </view>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
