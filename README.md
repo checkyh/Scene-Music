@@ -11,15 +11,4 @@ Currently,Basic player model is based on the uncompleted music player
 
 https://github.com/deepkanwal/ios-music-player
 
-Podfile 
-'CocoaLumberjack'
-
-'GDIIndexBar'
-
-'FXBlurView'
-
-'AFNetworking'
-
-
-
-
+Podfile:'CocoaLumberjack'/'GDIIndexBar'/'FXBlurView'/'AFNetworking'
