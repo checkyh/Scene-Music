@@ -8,7 +8,6 @@
 
 #import "ChorusSongsViewController.h"
 #import "ChorusSongsCell.h"
-
 #import <MediaPlayer/MediaPlayer.h>
 
 NSString *SongCellClassName = @"ChorusSongsCell";
@@ -35,7 +34,6 @@ NSString *SongCellClassName = @"ChorusSongsCell";
 - (void)populateDataSource
 {
     MPMediaQuery *songsQuery = [MPMediaQuery songsQuery];
-    
     self.sectionsArray = [songsQuery itemSections];
     self.itemsArray = [songsQuery items];
 }

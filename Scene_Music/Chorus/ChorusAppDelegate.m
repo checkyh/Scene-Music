@@ -12,9 +12,6 @@
 
 #import <MediaPlayer/MediaPlayer.h>
 
-#import "DDASLLogger.h"
-#import "DDTTYLogger.h"
-
 @implementation ChorusAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -23,15 +20,7 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
-    
-    UIStoryboard *rootStoryBoard = [UIStoryboard storyboardWithName:@"ChorusStoryboard" bundle:nil];
-    UIViewController *rootViewController = [rootStoryBoard instantiateInitialViewController];
-    [self.window setRootViewController:rootViewController];
     [self.window makeKeyAndVisible];
-    
-    [DDLog addLogger:[DDASLLogger sharedInstance]];
-    [DDLog addLogger:[DDTTYLogger sharedInstance]];
-    
     [[ChorusUIUtility sharedInstance] updateApp];
     
     return YES;

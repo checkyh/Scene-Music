@@ -11,7 +11,7 @@
 #import "UIView+Frames.h"
 #import "UIView+Effects.h"
 #import <MediaPlayer/MediaPlayer.h>
-
+#include "ChorusNowPlayingViewController.h"
 const CGFloat kChorusSongsCellHeight = 75.0f;
 
 @interface ChorusSongsCell ()
@@ -28,7 +28,6 @@ const CGFloat kChorusSongsCellHeight = 75.0f;
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated
 {
     [super setSelected:selected animated:animated];
-
     // Configure the view for the selected state
 }
 
@@ -39,7 +38,7 @@ const CGFloat kChorusSongsCellHeight = 75.0f;
 
 - (void)updateWithMediaItem:(MPMediaItem*)mediaItem
 {
-    
+    self.thisMediaItem=mediaItem;
     [self.trackLabel setTextColor:[[ChorusUIUtility sharedInstance] colorForDarkText]];
     [self.detailsLabel setTextColor:[[ChorusUIUtility sharedInstance] colorForDarkAccentText]];
     

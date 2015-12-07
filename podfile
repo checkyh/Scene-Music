@@ -1,4 +1,4 @@
-platform :ios, ‘9.0’
+platform :ios, ‘8.4’
 pod 'CocoaLumberjack'
 pod 'GDIIndexBar'
 pod 'FXBlurView'

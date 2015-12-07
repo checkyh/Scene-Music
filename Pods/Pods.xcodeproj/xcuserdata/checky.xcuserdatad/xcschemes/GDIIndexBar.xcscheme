@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '71F7C6E11819BD6925310CC9'
+               BlueprintIdentifier = '13B3B327C08EDE8D5126CA20'
                BlueprintName = 'GDIIndexBar'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libGDIIndexBar.a'>
