@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		635065661C156C8B0021B415 /* CorePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 635065651C156C8B0021B415 /* CorePlayer.m */; };
 		6397CC151C0C41AC002478EE /* ChorusAlbumsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6397CBCF1C0C41AC002478EE /* ChorusAlbumsCell.m */; };
 		6397CC161C0C41AC002478EE /* ChorusAlbumsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6397CBD01C0C41AC002478EE /* ChorusAlbumsCell.xib */; };
 		6397CC171C0C41AC002478EE /* ChorusAlbumSectionHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 6397CBD21C0C41AC002478EE /* ChorusAlbumSectionHeader.m */; };
@@ -47,7 +46,6 @@
 		6397CC391C0C41AC002478EE /* UIView+Effects.m in Sources */ = {isa = PBXBuildFile; fileRef = 6397CC121C0C41AC002478EE /* UIView+Effects.m */; };
 		6397CC3A1C0C41AC002478EE /* UIView+Frames.m in Sources */ = {isa = PBXBuildFile; fileRef = 6397CC141C0C41AC002478EE /* UIView+Frames.m */; };
 		63C0A1701C0C247500A94DAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C0A16F1C0C247500A94DAA /* main.m */; };
-		63C0A1731C0C247500A94DAA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C0A1721C0C247500A94DAA /* AppDelegate.m */; };
 		63C0A1791C0C247500A94DAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63C0A1771C0C247500A94DAA /* Main.storyboard */; };
 		63C0A17E1C0C247500A94DAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63C0A17C1C0C247500A94DAA /* LaunchScreen.storyboard */; };
 		9AD0236D5CA831003FFFE846 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 505DBA4AEF7D43A58F95678F /* libPods.a */; };
@@ -57,8 +55,6 @@
 		0AB459D8AE6D8EF9F2E5B8A9 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		2D92ED67D739299B3790A440 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		505DBA4AEF7D43A58F95678F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		635065641C156C8B0021B415 /* CorePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CorePlayer.h; sourceTree = "<group>"; };
-		635065651C156C8B0021B415 /* CorePlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CorePlayer.m; sourceTree = "<group>"; };
 		6397CBCE1C0C41AC002478EE /* ChorusAlbumsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChorusAlbumsCell.h; path = Chorus/ChorusAlbumsCell.h; sourceTree = "<group>"; };
 		6397CBCF1C0C41AC002478EE /* ChorusAlbumsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChorusAlbumsCell.m; path = Chorus/ChorusAlbumsCell.m; sourceTree = "<group>"; };
 		6397CBD01C0C41AC002478EE /* ChorusAlbumsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ChorusAlbumsCell.xib; path = Chorus/ChorusAlbumsCell.xib; sourceTree = "<group>"; };
@@ -131,8 +127,6 @@
 		6397CC141C0C41AC002478EE /* UIView+Frames.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Frames.m"; path = "Chorus/UIView+Frames.m"; sourceTree = "<group>"; };
 		63C0A16B1C0C247500A94DAA /* Scene_Music.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scene_Music.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63C0A16F1C0C247500A94DAA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		63C0A1711C0C247500A94DAA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		63C0A1721C0C247500A94DAA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		63C0A1781C0C247500A94DAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		63C0A17D1C0C247500A94DAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63C0A17F1C0C247500A94DAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -166,8 +160,6 @@
 				6397CBD81C0C41AC002478EE /* ChorusAlbumsSongsViewController.m */,
 				6397CBD91C0C41AC002478EE /* ChorusAlbumsViewController.h */,
 				6397CBDA1C0C41AC002478EE /* ChorusAlbumsViewController.m */,
-				6397CBDB1C0C41AC002478EE /* ChorusAppDelegate.h */,
-				6397CBDC1C0C41AC002478EE /* ChorusAppDelegate.m */,
 				6397CBDD1C0C41AC002478EE /* ChorusArtistsCell.h */,
 				6397CBDE1C0C41AC002478EE /* ChorusArtistsCell.m */,
 				6397CBDF1C0C41AC002478EE /* ChorusArtistsCell.xib */,
@@ -257,15 +249,13 @@
 		63C0A16D1C0C247500A94DAA /* Scene_Music */ = {
 			isa = PBXGroup;
 			children = (
+				6397CBDB1C0C41AC002478EE /* ChorusAppDelegate.h */,
+				6397CBDC1C0C41AC002478EE /* ChorusAppDelegate.m */,
 				6397CBCB1C0C4172002478EE /* Chorus */,
-				63C0A1711C0C247500A94DAA /* AppDelegate.h */,
-				63C0A1721C0C247500A94DAA /* AppDelegate.m */,
 				63C0A1771C0C247500A94DAA /* Main.storyboard */,
 				63C0A17C1C0C247500A94DAA /* LaunchScreen.storyboard */,
 				63C0A17F1C0C247500A94DAA /* Info.plist */,
 				63C0A16E1C0C247500A94DAA /* Supporting Files */,
-				635065641C156C8B0021B415 /* CorePlayer.h */,
-				635065651C156C8B0021B415 /* CorePlayer.m */,
 			);
 			path = Scene_Music;
 			sourceTree = "<group>";
@@ -329,7 +319,7 @@
 				TargetAttributes = {
 					63C0A16A1C0C247500A94DAA = {
 						CreatedOnToolsVersion = 7.1;
-						DevelopmentTeam = CV2MZ69QBA;
+						DevelopmentTeam = W2YVPAZ6AP;
 					};
 				};
 			};
@@ -428,7 +418,6 @@
 				6397CC341C0C41AC002478EE /* ChorusWebViewController.m in Sources */,
 				6397CC191C0C41AC002478EE /* ChorusAlbumsSongsCell.m in Sources */,
 				6397CC171C0C41AC002478EE /* ChorusAlbumSectionHeader.m in Sources */,
-				63C0A1731C0C247500A94DAA /* AppDelegate.m in Sources */,
 				6397CC151C0C41AC002478EE /* ChorusAlbumsCell.m in Sources */,
 				6397CC1C1C0C41AC002478EE /* ChorusAlbumsViewController.m in Sources */,
 				6397CC301C0C41AC002478EE /* ChorusSongsViewController.m in Sources */,
@@ -445,7 +434,6 @@
 				6397CC311C0C41AC002478EE /* ChorusTabBarController.m in Sources */,
 				6397CC2D1C0C41AC002478EE /* ChorusSharedCache.m in Sources */,
 				6397CC321C0C41AC002478EE /* ChorusTopBarViewController.m in Sources */,
-				635065661C156C8B0021B415 /* CorePlayer.m in Sources */,
 				6397CC371C0C41AC002478EE /* UINavigationController+ViewControllers.m in Sources */,
 				6397CC201C0C41AC002478EE /* ChorusArtistsViewController.m in Sources */,
 				6397CC281C0C41AC002478EE /* ChorusLastFMUtility.m in Sources */,
@@ -569,6 +557,7 @@
 			baseConfigurationReference = 0AB459D8AE6D8EF9F2E5B8A9 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Scene_Music/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -582,6 +571,7 @@
 			baseConfigurationReference = 2D92ED67D739299B3790A440 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Scene_Music/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

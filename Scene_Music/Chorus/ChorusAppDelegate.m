@@ -16,13 +16,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
-    [[ChorusUIUtility sharedInstance] updateApp];
     
+    UIStoryboard *rootStoryBoard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    UIViewController *rootViewController = [rootStoryBoard instantiateInitialViewController];
+    [self.window setRootViewController:rootViewController];
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
