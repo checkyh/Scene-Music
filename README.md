@@ -27,3 +27,10 @@ week 15
 
 2.reorganize tab view and direct 
 
+week 17
+
+1.adding play function to coreplayer
+
+2.finishing basic music player  can switch successfully between musics;
+
+3.bugs in album and artist swtiching
