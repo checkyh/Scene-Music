@@ -8,6 +8,7 @@
 
 #import "ChorusBaseViewController.h"
 
+#import <MediaPlayer/MediaPlayer.h>
 @interface ChorusNowPlayingViewController : ChorusBaseViewController
 
 @property (strong, nonatomic) NSArray *nowPlayingList;

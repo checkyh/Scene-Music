@@ -12,11 +12,9 @@
 #import "UIView+Effects.h"
 #import "UIView+Animations.h"
 #import "FXBlurView.h"
-#import <MediaPlayer/MediaPlayer.h>
+#import "ChorusAppDelegate.h"
 
 @interface ChorusNowPlayingViewController ()
-
-@property (strong, nonatomic) MPMusicPlayerController *audioPlayer;
 
 @property (weak, nonatomic) IBOutlet UIImageView *backgroundImageView;
 @property (weak, nonatomic) IBOutlet UIImageView *albumArtImageView;
@@ -26,6 +24,7 @@
 @property (weak, nonatomic) IBOutlet UIButton *playPauseButton;
 @property (weak, nonatomic) IBOutlet UILabel *trackTitleLabel;
 @property (weak, nonatomic) IBOutlet UILabel *detailsLabel;
+@property (strong, nonatomic) MPMusicPlayerController *audioPlayer;
 
 @end
 
@@ -45,7 +44,8 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     
-    self.audioPlayer = [MPMusicPlayerController applicationMusicPlayer];
+    ChorusAppDelegate *temp=[[UIApplication sharedApplication]delegate];
+    self.audioPlayer=temp.corePlayer.audioPlayer;
     if (self.currentSongIndex < self.nowPlayingList.count) {
         MPMediaItem *song = [self.nowPlayingList objectAtIndex:self.currentSongIndex];
         MPMediaItemCollection *queue = [MPMediaItemCollection collectionWithItems:self.nowPlayingList];

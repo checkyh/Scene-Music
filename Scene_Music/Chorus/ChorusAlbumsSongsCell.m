@@ -9,7 +9,7 @@
 #import "ChorusAlbumsSongsCell.h"
 #import "ChorusUIUtility.h"
 #import <MediaPlayer/MediaPlayer.h>
-
+#import "ChorusAppDelegate.h"
 const CGFloat kChorusAlbumsSongsCellHeight = 44.0f;
 
 @interface ChorusAlbumsSongsCell ()
@@ -34,13 +34,15 @@ const CGFloat kChorusAlbumsSongsCellHeight = 44.0f;
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated
 {
     [super setSelected:selected animated:animated];
-
+    
+    ChorusAppDelegate *temp=[[UIApplication sharedApplication]delegate];
+    [temp.corePlayer play:self.thisMediaItem];
     // Configure the view for the selected state
 }
 
 - (void)updateWithMediaItem:(MPMediaItem*)mediaItem
 {
-    
+    self.thisMediaItem=mediaItem;
     [self.trackTitleLabel setTextColor:[[ChorusUIUtility sharedInstance] colorForDarkText]];
     [self.trackNumberLabel setTextColor:[[ChorusUIUtility sharedInstance] colorForDarkAccentText]];
     [self.trackDurationLabel setTextColor:[[ChorusUIUtility sharedInstance] colorForDarkAccentText]];

@@ -11,7 +11,8 @@
 #import "UIView+Frames.h"
 #import "UIView+Effects.h"
 #import <MediaPlayer/MediaPlayer.h>
-#include "ChorusNowPlayingViewController.h"
+#import "ChorusNowPlayingViewController.h"
+#import "ChorusAppDelegate.h"
 const CGFloat kChorusSongsCellHeight = 75.0f;
 
 @interface ChorusSongsCell ()
@@ -29,6 +30,8 @@ const CGFloat kChorusSongsCellHeight = 75.0f;
 {
     [super setSelected:selected animated:animated];
     // Configure the view for the selected state
+    ChorusAppDelegate *temp=[[UIApplication sharedApplication]delegate];
+    [temp.corePlayer play:self.thisMediaItem];
 }
 
 - (void)awakeFromNib

@@ -9,11 +9,10 @@
 #import "ChorusAppDelegate.h"
 #import "ChorusUIUtility.h"
 #import "ChorusNowPlayingViewController.h"
-
 #import <MediaPlayer/MediaPlayer.h>
 
 @implementation ChorusAppDelegate
-
+@synthesize corePlayer;
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
@@ -24,6 +23,8 @@
     UIViewController *rootViewController = [rootStoryBoard instantiateInitialViewController];
     [self.window setRootViewController:rootViewController];
     [self.window makeKeyAndVisible];
+    self.corePlayer=[CorePlayer alloc];
+    [self.corePlayer init_Music];
     return YES;
 }
 

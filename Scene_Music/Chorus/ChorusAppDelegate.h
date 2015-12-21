@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "CorePlayer.h"
 @interface ChorusAppDelegate : UIResponder <UIApplicationDelegate>
-
+{
+    CorePlayer* corePlayer;
+}
 @property (strong, nonatomic) UIWindow *window;
 
+@property (nonatomic, retain) CorePlayer* corePlayer;
 @end
