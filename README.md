@@ -35,6 +35,7 @@ week 17
 
 3.bugs in album and artist swtiching
 
+###Snap
  ![alt text](https://raw.githubusercontent.com/checkyh/Scene-Music/master/snap/thumb_IMG_0011_1024.jpg)
  ![alt text](https://raw.githubusercontent.com/checkyh/Scene-Music/master/snap/thumb_IMG_0012_1024.jpg)
  ![alt text](https://raw.githubusercontent.com/checkyh/Scene-Music/master/snap/thumb_IMG_0013_1024.jpg)
