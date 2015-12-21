@@ -29,8 +29,13 @@ week 15
 
 week 17
 
-1.adding play function to coreplayer
+1.adding play function to coreplayer;applicationmusicplayer->systemmusicplayer
 
 2.finishing basic music player  can switch successfully between musics;
 
 3.bugs in album and artist swtiching
+
+ ![alt text](https://raw.githubusercontent.com/checkyh/Scene-Music/master/snap/thumb_IMG_0011_1024.jpg)
+ ![alt text](https://raw.githubusercontent.com/checkyh/Scene-Music/master/snap/thumb_IMG_0012_1024.jpg)
+ ![alt text](https://raw.githubusercontent.com/checkyh/Scene-Music/master/snap/thumb_IMG_0013_1024.jpg)
+ ![alt text](https://raw.githubusercontent.com/checkyh/Scene-Music/master/snap/thumb_IMG_0014_1024.jpg)
