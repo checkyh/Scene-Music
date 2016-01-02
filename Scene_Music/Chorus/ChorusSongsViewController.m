@@ -8,6 +8,7 @@
 
 #import "ChorusSongsViewController.h"
 #import "ChorusSongsCell.h"
+#import "ChorusAppDelegate.h"
 #import <MediaPlayer/MediaPlayer.h>
 
 NSString *SongCellClassName = @"ChorusSongsCell";
@@ -33,19 +34,17 @@ NSString *SongCellClassName = @"ChorusSongsCell";
 
 - (void)populateDataSource
 {
-    MPMediaQuery *songsQuery = [MPMediaQuery songsQuery];
-    self.sectionsArray = [songsQuery itemSections];
-    self.itemsArray = [songsQuery items];
+    ChorusAppDelegate *temp=[[UIApplication sharedApplication]delegate];
+    MPMediaItemCollection *collection=[temp.corePlayer getCollection];
+    self.itemsArray = [collection items];
 }
-
 #pragma mark - UITableViewDataSource
 
 - (UITableViewCell*)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     ChorusSongsCell *cell = [self.tableView dequeueReusableCellWithIdentifier:SongCellClassName forIndexPath:indexPath];
     
-    MPMediaQuerySection *mediaSection = [self.sectionsArray objectAtIndex:indexPath.section];
-    NSInteger index = mediaSection.range.location + indexPath.row;
+    NSInteger index = indexPath.row;
     
     if (index < self.itemsArray.count) {
         MPMediaItem *mediaItem = [self.itemsArray objectAtIndex:index];

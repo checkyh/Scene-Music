@@ -10,6 +10,8 @@
 #import <MediaPlayer/MediaPlayer.h>
 @interface CorePlayer : NSObject
 @property (strong, nonatomic) MPMusicPlayerController *audioPlayer;
+@property(strong,nonatomic) NSMutableArray* suggestCollection;
 -(void)init_Music;
 -(void)play:(MPMediaItem*)mediaItem;
+-(MPMediaItemCollection*)getCollection;
 @end

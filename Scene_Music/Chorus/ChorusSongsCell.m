@@ -29,7 +29,6 @@ const CGFloat kChorusSongsCellHeight = 75.0f;
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated
 {
     [super setSelected:selected animated:animated];
-    // Configure the view for the selected state
     ChorusAppDelegate *temp=[[UIApplication sharedApplication]delegate];
     [temp.corePlayer play:self.thisMediaItem];
 }
