@@ -35,6 +35,14 @@ week 17
 
 3.bugs in album and artist swtiching
 
+week 18
+
+1.Remove SongList Section 
+
+2.Prepare for Save Suggest List in UserDefaults include app's different state
+
+3.Some bug fix and UI adjust
+
 ###Snap
  ![alt text](https://raw.githubusercontent.com/checkyh/Scene-Music/master/snap/thumb_IMG_0011_1024.jpg)
  ![alt text](https://raw.githubusercontent.com/checkyh/Scene-Music/master/snap/thumb_IMG_0012_1024.jpg)
