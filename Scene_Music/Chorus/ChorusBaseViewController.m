@@ -32,7 +32,7 @@
 	// Do any additional setup after loading the view.
     
     if ([self.navigationController containsViewControllerOfClass:[ChorusNowPlayingViewController class]] == NO) {
-        UIBarButtonItem *nowPlayingBarButton = [[UIBarButtonItem alloc] initWithTitle:@"^" style:UIBarButtonItemStylePlain target:self action:@selector(showNowPlayingScreen)];
+        UIBarButtonItem *nowPlayingBarButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemPlay target:self action:@selector(showNowPlayingScreen)];
         [self.navigationItem setRightBarButtonItem:nowPlayingBarButton];
     }
     

@@ -14,4 +14,5 @@
 -(void)init_Music;
 -(void)play:(MPMediaItem*)mediaItem;
 -(MPMediaItemCollection*)getCollection;
+-(void)saveState;
 @end

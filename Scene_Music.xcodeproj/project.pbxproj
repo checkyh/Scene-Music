@@ -150,6 +150,7 @@
 		6397CBCB1C0C4172002478EE /* Chorus */ = {
 			isa = PBXGroup;
 			children = (
+				6397CBF51C0C41AC002478EE /* ChorusNowPlayingSegue.h */,
 				6397CBCE1C0C41AC002478EE /* ChorusAlbumsCell.h */,
 				6397CBCF1C0C41AC002478EE /* ChorusAlbumsCell.m */,
 				6397CBD01C0C41AC002478EE /* ChorusAlbumsCell.xib */,
@@ -181,13 +182,12 @@
 				6397CBED1C0C41AC002478EE /* ChorusIndexSectionHeader.m */,
 				6397CBEA1C0C41AC002478EE /* ChorusContainerViewController.h */,
 				6397CBEE1C0C41AC002478EE /* ChorusIndexSectionHeader.xib */,
-				6397CBEF1C0C41AC002478EE /* ChorusLastFMUtility.h */,
 				6397CBF01C0C41AC002478EE /* ChorusLastFMUtility.m */,
 				6397CBF11C0C41AC002478EE /* chorusMediaPlayer-Info.plist */,
 				6397CBF21C0C41AC002478EE /* chorusMediaPlayer-Prefix.pch */,
 				6397CBF31C0C41AC002478EE /* ChorusMediaUtility.h */,
 				6397CBF41C0C41AC002478EE /* ChorusMediaUtility.m */,
-				6397CBF51C0C41AC002478EE /* ChorusNowPlayingSegue.h */,
+				6397CBEF1C0C41AC002478EE /* ChorusLastFMUtility.h */,
 				6397CBF61C0C41AC002478EE /* ChorusNowPlayingSegue.m */,
 				6397CBF71C0C41AC002478EE /* ChorusNowPlayingViewController.h */,
 				6397CBF81C0C41AC002478EE /* ChorusNowPlayingViewController.m */,

@@ -16,7 +16,7 @@
     MPMediaQuery *mediaQueue=[MPMediaQuery songsQuery];
     NSUserDefaults *userdata=[NSUserDefaults standardUserDefaults];
     if(userdata){
-        _suggestCollection=[userdata objectForKey:@"suggest"];
+        _suggestCollection=[[NSMutableArray alloc]initWithArray:[userdata objectForKey:@"suggest"] copyItems: true];
     }
     else _suggestCollection=[NSMutableArray alloc];
     Boolean judge=true;
@@ -32,7 +32,6 @@
     MPMediaItemCollection *list=[[MPMediaItemCollection alloc]initWithItems:_suggestCollection];
     [self.audioPlayer setRepeatMode:MPMusicRepeatModeAll];
     [self.audioPlayer setQueueWithItemCollection:list];
-    [self.audioPlayer play];
 }
 -(void)play:(MPMediaItem*)mediaItem
 {
@@ -41,5 +40,12 @@
 }
 -(MPMediaItemCollection*)getCollection{
     return [[MPMediaItemCollection alloc]initWithItems:_suggestCollection];
+}
+-(void)saveState
+{
+    NSUserDefaults *userdata=[NSUserDefaults standardUserDefaults];
+    if(userdata){
+        [userdata setObject:_suggestCollection  forKey:@"suggest"];
+    }
 }
 @end

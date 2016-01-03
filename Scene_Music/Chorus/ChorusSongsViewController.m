@@ -7,6 +7,7 @@
 //
 
 #import "ChorusSongsViewController.h"
+#import "ChorusIndexSectionHeader.h"
 #import "ChorusSongsCell.h"
 #import "ChorusAppDelegate.h"
 #import <MediaPlayer/MediaPlayer.h>
@@ -39,7 +40,20 @@ NSString *SongCellClassName = @"ChorusSongsCell";
     self.itemsArray = [collection items];
 }
 #pragma mark - UITableViewDataSource
-
+-(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+{
+    return 1;
+}
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return self.itemsArray.count;
+}
+- (UIView*)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
+{
+    ChorusIndexSectionHeader *sectionHeader = [[[NSBundle mainBundle] loadNibNamed:@"ChorusIndexSectionHeader" owner:nil options:nil] lastObject];
+    [sectionHeader updateWithText:@"List"];
+    return sectionHeader;
+}
 - (UITableViewCell*)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     ChorusSongsCell *cell = [self.tableView dequeueReusableCellWithIdentifier:SongCellClassName forIndexPath:indexPath];
