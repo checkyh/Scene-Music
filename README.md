@@ -43,6 +43,12 @@ week 18
 
 3.Some bug fix and UI adjust
 
+week 19
+
+1.dynamic update list (show new Music on top  remove deleted music)
+
+2.stop music when terminated 
+
 ###Snap
  ![alt text](https://raw.githubusercontent.com/checkyh/Scene-Music/master/snap/thumb_IMG_0011_1024.jpg)
  ![alt text](https://raw.githubusercontent.com/checkyh/Scene-Music/master/snap/thumb_IMG_0012_1024.jpg)
