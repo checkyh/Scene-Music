@@ -46,11 +46,12 @@ week 18
 week 19
 
 1.real time dynamic update list
-  New Songs on Top
+    
+    New Songs on Top
   
-  Played Songs on Bottom
+    Played Songs on Bottom
   
-  Remove Deleted Songs
+    Remove Deleted Songs
 
 2.stop music when terminated and Bugs Fixed
 
