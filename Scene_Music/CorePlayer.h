@@ -8,12 +8,15 @@
 
 #import <Foundation/Foundation.h>
 #import <MediaPlayer/MediaPlayer.h>
+#import "ChorusSongsViewController.h"
 @interface CorePlayer : NSObject
 @property (strong, nonatomic) MPMusicPlayerController *audioPlayer;
 @property(strong,nonatomic) NSMutableArray* suggestCollection;
 -(void)init_Music;
--(void)play:(MPMediaItem*)mediaItem;
+-(void)playWithItem:(MPMediaItem*)mediaItem;
+-(void)playWithIndex:(NSUInteger)index;
 -(MPMediaItemCollection*)getCollection;
 -(void)saveState;
 -(void)loadNewMusic;
+-(void)assignDynamicTableView:(UITableView *)tableview;
 @end

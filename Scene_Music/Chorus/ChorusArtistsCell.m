@@ -58,5 +58,4 @@ const CGFloat kChorusArtistsCellHeight = 75.0f;
         [self.artistImageView setImage:image];
     }
 }
-
 @end

@@ -34,14 +34,10 @@ const CGFloat kChorusAlbumsSongsCellHeight = 44.0f;
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated
 {
     [super setSelected:selected animated:animated];
-    ChorusAppDelegate *temp=[[UIApplication sharedApplication]delegate];
-    [temp.corePlayer play:self.thisMediaItem];
     // Configure the view for the selected state
 }
-
 - (void)updateWithMediaItem:(MPMediaItem*)mediaItem
 {
-    self.thisMediaItem=mediaItem;
     [self.trackTitleLabel setTextColor:[[ChorusUIUtility sharedInstance] colorForDarkText]];
     [self.trackNumberLabel setTextColor:[[ChorusUIUtility sharedInstance] colorForDarkAccentText]];
     [self.trackDurationLabel setTextColor:[[ChorusUIUtility sharedInstance] colorForDarkAccentText]];
@@ -63,6 +59,4 @@ const CGFloat kChorusAlbumsSongsCellHeight = 44.0f;
     NSString *durationString = [NSString stringWithFormat:@"%zd:%02zd", minutes, seconds];
     [self.trackDurationLabel setText:durationString];
 }
-
-
 @end

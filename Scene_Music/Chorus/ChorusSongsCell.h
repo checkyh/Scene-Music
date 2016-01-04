@@ -16,5 +16,4 @@ extern const CGFloat kChorusSongsCellHeight;
 @interface ChorusSongsCell : ChorusBaseTableViewCell
 
 - (void)updateWithMediaItem:(MPMediaItem*)mediaItem;
-@property MPMediaItem* thisMediaItem;
 @end

@@ -11,7 +11,6 @@
 #import "ChorusAlbumsCell.h"
 #import "ChorusMediaUtility.h"
 #import <MediaPlayer/MediaPlayer.h>
-
 NSString *const kSegueAlbumsToSongs = @"kSegueAlbumsToSongs";
 
 NSString *AlbumCellClassName = @"ChorusAlbumsCell";
@@ -101,6 +100,7 @@ NSString *AlbumCellClassName = @"ChorusAlbumsCell";
 {
     [self performSegueWithIdentifier:kSegueAlbumsToSongs sender:nil];
     [self.tableView deselectRowAtIndexPath:indexPath animated:YES];
+    
 }
 
 #pragma mark - Segue

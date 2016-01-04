@@ -5,6 +5,7 @@
 //  Created by Deepkanwal Plaha on 2/16/2014.
 //  Copyright (c) 2014 Deepkanwal Plaha. All rights reserved.
 //
+//  Edited by Checky on 2/1/2016.
 
 #import "ChorusNowPlayingViewController.h"
 #import "ChorusUIUtility.h"
@@ -46,17 +47,6 @@
     
     ChorusAppDelegate *temp=[[UIApplication sharedApplication]delegate];
     self.audioPlayer=temp.corePlayer.audioPlayer;
-    if (self.currentSongIndex < self.nowPlayingList.count) {
-        MPMediaItem *song = [self.nowPlayingList objectAtIndex:self.currentSongIndex];
-        MPMediaItemCollection *queue = [MPMediaItemCollection collectionWithItems:self.nowPlayingList];
-        
-        [self.audioPlayer setQueueWithItemCollection:queue];
-        [self.audioPlayer setNowPlayingItem:song];
-        [self.audioPlayer play];
-        
-    } else {
-        
-    }
 }
 
 - (void)viewWillAppear:(BOOL)animated

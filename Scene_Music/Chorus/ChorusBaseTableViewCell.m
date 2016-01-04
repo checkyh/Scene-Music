@@ -52,7 +52,6 @@
     }
     
 }
-
 - (void)updateForIndex:(NSUInteger)index
 {
 //    switch (index % 6) {

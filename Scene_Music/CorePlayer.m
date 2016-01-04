@@ -7,7 +7,11 @@
 //
 
 #import "CorePlayer.h"
+@interface CorePlayer()
+@property (weak,nonatomic)UITableView *tableview;
+@end
 @implementation CorePlayer
+
 -(void)loadNewMusic
 {
     MPMediaQuery *mediaQueue=[MPMediaQuery songsQuery];
@@ -30,11 +34,13 @@
                 [_suggestCollection removeObject:[_suggestCollection objectAtIndex:i]];
             }
     }
+    if(self.tableview!=NULL)[self.tableview reloadData];
     [self saveState];
     
 }
 -(void)init_Music
 {
+    self.tableview=NULL;
     self.audioPlayer = [MPMusicPlayerController systemMusicPlayer];
     NSUserDefaults *userdata=[NSUserDefaults standardUserDefaults];
     if(userdata){
@@ -43,16 +49,22 @@
     }
     else _suggestCollection=[NSMutableArray alloc];
     [self loadNewMusic];
-    [self.audioPlayer setRepeatMode:MPMusicRepeatModeAll];
     if(_suggestCollection.count>0){
         MPMediaItemCollection *list=[[MPMediaItemCollection alloc]initWithItems:_suggestCollection];
         [self.audioPlayer setQueueWithItemCollection:list];
     }
+    [self.audioPlayer setRepeatMode:MPMusicRepeatModeAll];
+    [self.audioPlayer setNowPlayingItem:[_suggestCollection objectAtIndex:0]];
+    [self.audioPlayer play];
 }
--(void)play:(MPMediaItem*)mediaItem
+-(void)playWithItem:(MPMediaItem *)mediaItem
 {
     [self.audioPlayer setNowPlayingItem:mediaItem];
     [self.audioPlayer play];
+}
+-(void)playWithIndex:(NSUInteger)index
+{
+    [self playWithItem:[_suggestCollection objectAtIndex:index]];
 }
 -(MPMediaItemCollection*)getCollection{
     return [[MPMediaItemCollection alloc]initWithItems:_suggestCollection];
@@ -64,5 +76,10 @@
     if(userdata){
         [userdata setObject:data  forKey:@"suggest"];
     }
+    if(self.tableview!=NULL)[self.tableview reloadData];
+}
+-(void)assignDynamicTableView:(UITableView *)aTableview
+{
+    self.tableview=aTableview;
 }
 @end

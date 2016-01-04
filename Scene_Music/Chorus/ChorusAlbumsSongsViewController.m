@@ -13,7 +13,7 @@
 #import "ChorusMediaUtility.h"
 #import "ChorusUIUtility.h"
 #import <MediaPlayer/MediaPlayer.h>
-
+#import "ChorusAppDelegate.h"
 NSString *AlbumsSongsCellClassName = @"ChorusAlbumsSongsCell";
 
 @interface ChorusAlbumsSongsViewController ()
@@ -136,6 +136,12 @@ NSString *AlbumsSongsCellClassName = @"ChorusAlbumsSongsCell";
 {
 //    [self performSegueWithIdentifier:@"kSegueAlbumsToNowPlaying" sender:nil];
     [self.tableView deselectRowAtIndexPath:indexPath animated:YES];
+    
+    ChorusAppDelegate *temp=[[UIApplication sharedApplication]delegate];
+    
+    MPMediaItemCollection *collection = [self.albumsArray objectAtIndex:indexPath.section];
+    MPMediaItem *item = [collection.items objectAtIndex:indexPath.row];
+    [temp.corePlayer playWithItem:item];
 }
 
 

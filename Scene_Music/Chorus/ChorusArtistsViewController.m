@@ -10,7 +10,6 @@
 #import "ChorusAlbumsSongsViewController.h"
 #import "ChorusArtistsCell.h"
 #import <MediaPlayer/MediaPlayer.h>
-
 NSString *ArtistsCellClassName = @"ChorusArtistsCell";
 
 NSString *const kSegueArtistsToAlbums = @"kSegueArtistsToAlbums";
