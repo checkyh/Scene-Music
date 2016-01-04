@@ -25,9 +25,6 @@ NSString *SongCellClassName = @"ChorusSongsCell";
     [super viewDidLoad];
     [self.tableView registerNib:[UINib nibWithNibName:SongCellClassName bundle:nil] forCellReuseIdentifier:SongCellClassName];
     
-    ChorusAppDelegate *temp=[[UIApplication sharedApplication]delegate];
-    [temp.corePlayer assignDynamicTableView:self.tableView];
-    
 }
 - (void)didReceiveMemoryWarning
 {
@@ -84,6 +81,7 @@ NSString *SongCellClassName = @"ChorusSongsCell";
     [self.tableView deselectRowAtIndexPath:indexPath animated:YES];
      ChorusAppDelegate *temp=[[UIApplication sharedApplication]delegate];
     [temp.corePlayer playWithIndex:indexPath.row];
+    [super viewWillAppear:YES];
 }
 
 @end

@@ -56,7 +56,7 @@ const CGFloat kIndexBarAlpha = (0.4f);
     [self.tableView setBackgroundColor:[[ChorusUIUtility sharedInstance] colorForTableViewBackgrounds]];
     [self.indexBar setTextColor:[[ChorusUIUtility sharedInstance] colorForDarkAccentText]];
     [self populateDataSource];
-        [self.tableView reloadData];
+    [self.tableView reloadData];
 }
 
 - (void)didReceiveMemoryWarning

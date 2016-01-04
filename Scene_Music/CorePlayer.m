@@ -7,9 +7,6 @@
 //
 
 #import "CorePlayer.h"
-@interface CorePlayer()
-@property (weak,nonatomic)UITableView *tableview;
-@end
 @implementation CorePlayer
 
 -(void)loadNewMusic
@@ -34,13 +31,11 @@
                 [_suggestCollection removeObject:[_suggestCollection objectAtIndex:i]];
             }
     }
-    if(self.tableview!=NULL)[self.tableview reloadData];
     [self saveState];
     
 }
 -(void)init_Music
 {
-    self.tableview=NULL;
     self.audioPlayer = [MPMusicPlayerController systemMusicPlayer];
     NSUserDefaults *userdata=[NSUserDefaults standardUserDefaults];
     if(userdata){
@@ -48,26 +43,32 @@
         _suggestCollection=[[NSMutableArray alloc]initWithArray:[NSKeyedUnarchiver unarchiveObjectWithData:data] copyItems:true];
     }
     else _suggestCollection=[NSMutableArray alloc];
+    
     [self loadNewMusic];
     if(_suggestCollection.count>0){
         MPMediaItemCollection *list=[[MPMediaItemCollection alloc]initWithItems:_suggestCollection];
         [self.audioPlayer setQueueWithItemCollection:list];
+        [self.audioPlayer setRepeatMode:MPMusicRepeatModeAll];
+        [self playWithIndex:0];
     }
-    [self.audioPlayer setRepeatMode:MPMusicRepeatModeAll];
-    [self.audioPlayer setNowPlayingItem:[_suggestCollection objectAtIndex:0]];
-    [self.audioPlayer play];
 }
 -(void)playWithItem:(MPMediaItem *)mediaItem
 {
+    if(_suggestCollection.count>0){
     [self.audioPlayer setNowPlayingItem:mediaItem];
     [self.audioPlayer play];
+    [_suggestCollection removeObject:mediaItem];
+    [_suggestCollection insertObject:mediaItem atIndex:_suggestCollection.count];
+    }
 }
 -(void)playWithIndex:(NSUInteger)index
 {
     [self playWithItem:[_suggestCollection objectAtIndex:index]];
 }
 -(MPMediaItemCollection*)getCollection{
+    if(_suggestCollection.count>0)
     return [[MPMediaItemCollection alloc]initWithItems:_suggestCollection];
+    else return NULL;
 }
 -(void)saveState
 {
@@ -76,10 +77,5 @@
     if(userdata){
         [userdata setObject:data  forKey:@"suggest"];
     }
-    if(self.tableview!=NULL)[self.tableview reloadData];
-}
--(void)assignDynamicTableView:(UITableView *)aTableview
-{
-    self.tableview=aTableview;
 }
 @end

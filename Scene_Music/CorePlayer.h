@@ -18,5 +18,4 @@
 -(MPMediaItemCollection*)getCollection;
 -(void)saveState;
 -(void)loadNewMusic;
--(void)assignDynamicTableView:(UITableView *)tableview;
 @end
