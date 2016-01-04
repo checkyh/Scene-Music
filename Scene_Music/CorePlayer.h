@@ -15,4 +15,5 @@
 -(void)play:(MPMediaItem*)mediaItem;
 -(MPMediaItemCollection*)getCollection;
 -(void)saveState;
+-(void)loadNewMusic;
 @end

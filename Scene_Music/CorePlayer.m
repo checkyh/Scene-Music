@@ -7,31 +7,47 @@
 //
 
 #import "CorePlayer.h"
-
 @implementation CorePlayer
-
--(void)init_Music
+-(void)loadNewMusic
 {
-    self.audioPlayer = [MPMusicPlayerController systemMusicPlayer];
     MPMediaQuery *mediaQueue=[MPMediaQuery songsQuery];
-    NSUserDefaults *userdata=[NSUserDefaults standardUserDefaults];
-    if(userdata){
-        _suggestCollection=[[NSMutableArray alloc]initWithArray:[userdata objectForKey:@"suggest"] copyItems: true];
-    }
-    else _suggestCollection=[NSMutableArray alloc];
     Boolean judge=true;
     for (MPMediaItem *qitem in mediaQueue.items) {
         judge=true;
         
         for(MPMediaItem *item in _suggestCollection)
-            if(item.title== qitem.title) judge=false;
-        if(judge) {
-            [_suggestCollection insertObject:[qitem copy] atIndex:0];
-        }
+            if([item isEqual:qitem]) {judge=false;break;}
+        if(judge) 
+            [_suggestCollection insertObject:qitem atIndex:0];
     }
-    MPMediaItemCollection *list=[[MPMediaItemCollection alloc]initWithItems:_suggestCollection];
+    for (int i=(int)_suggestCollection.count-1;i>=0;i--)
+    {
+            judge=false;
+            for(MPMediaItem *qitem in mediaQueue.items)
+                if([[_suggestCollection objectAtIndex:i] isEqual:qitem]) {judge=true;break;}
+            if(!judge)
+            {
+                [_suggestCollection removeObject:[_suggestCollection objectAtIndex:i]];
+            }
+    }
+    [self saveState];
+    
+}
+-(void)init_Music
+{
+    self.audioPlayer = [MPMusicPlayerController systemMusicPlayer];
+    NSUserDefaults *userdata=[NSUserDefaults standardUserDefaults];
+    if(userdata){
+        NSData *data=[userdata objectForKey:@"suggest"];
+        _suggestCollection=[[NSMutableArray alloc]initWithArray:[NSKeyedUnarchiver unarchiveObjectWithData:data] copyItems:true];
+    }
+    else _suggestCollection=[NSMutableArray alloc];
+    [self loadNewMusic];
     [self.audioPlayer setRepeatMode:MPMusicRepeatModeAll];
-    [self.audioPlayer setQueueWithItemCollection:list];
+    if(_suggestCollection.count>0){
+        MPMediaItemCollection *list=[[MPMediaItemCollection alloc]initWithItems:_suggestCollection];
+        [self.audioPlayer setQueueWithItemCollection:list];
+    }
 }
 -(void)play:(MPMediaItem*)mediaItem
 {
@@ -44,8 +60,9 @@
 -(void)saveState
 {
     NSUserDefaults *userdata=[NSUserDefaults standardUserDefaults];
+    NSData *data = [NSKeyedArchiver archivedDataWithRootObject:_suggestCollection];
     if(userdata){
-        [userdata setObject:_suggestCollection  forKey:@"suggest"];
+        [userdata setObject:data  forKey:@"suggest"];
     }
 }
 @end
