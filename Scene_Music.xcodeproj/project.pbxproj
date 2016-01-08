@@ -46,6 +46,8 @@
 		6397CC381C0C41AC002478EE /* UIView+Animations.m in Sources */ = {isa = PBXBuildFile; fileRef = 6397CC101C0C41AC002478EE /* UIView+Animations.m */; };
 		6397CC391C0C41AC002478EE /* UIView+Effects.m in Sources */ = {isa = PBXBuildFile; fileRef = 6397CC121C0C41AC002478EE /* UIView+Effects.m */; };
 		6397CC3A1C0C41AC002478EE /* UIView+Frames.m in Sources */ = {isa = PBXBuildFile; fileRef = 6397CC141C0C41AC002478EE /* UIView+Frames.m */; };
+		63A083791C3D313A006EC0BF /* LocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A083781C3D313A006EC0BF /* LocationViewController.m */; };
+		63A7FCD51C3FD77A004C1453 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63A7FCD41C3FD77A004C1453 /* MapKit.framework */; };
 		63C0A1701C0C247500A94DAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C0A16F1C0C247500A94DAA /* main.m */; };
 		63C0A1791C0C247500A94DAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63C0A1771C0C247500A94DAA /* Main.storyboard */; };
 		63C0A17E1C0C247500A94DAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63C0A17C1C0C247500A94DAA /* LaunchScreen.storyboard */; };
@@ -128,6 +130,9 @@
 		6397CC121C0C41AC002478EE /* UIView+Effects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Effects.m"; path = "Chorus/UIView+Effects.m"; sourceTree = "<group>"; };
 		6397CC131C0C41AC002478EE /* UIView+Frames.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Frames.h"; path = "Chorus/UIView+Frames.h"; sourceTree = "<group>"; };
 		6397CC141C0C41AC002478EE /* UIView+Frames.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Frames.m"; path = "Chorus/UIView+Frames.m"; sourceTree = "<group>"; };
+		63A083771C3D313A006EC0BF /* LocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationViewController.h; sourceTree = "<group>"; };
+		63A083781C3D313A006EC0BF /* LocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationViewController.m; sourceTree = "<group>"; };
+		63A7FCD41C3FD77A004C1453 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		63C0A16B1C0C247500A94DAA /* Scene_Music.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scene_Music.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63C0A16F1C0C247500A94DAA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		63C0A1781C0C247500A94DAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -140,6 +145,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63A7FCD51C3FD77A004C1453 /* MapKit.framework in Frameworks */,
 				9AD0236D5CA831003FFFE846 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,10 +263,11 @@
 				6397CBCB1C0C4172002478EE /* Chorus */,
 				63C0A1771C0C247500A94DAA /* Main.storyboard */,
 				63C0A17C1C0C247500A94DAA /* LaunchScreen.storyboard */,
-				63C0A17F1C0C247500A94DAA /* Info.plist */,
 				63C0A16E1C0C247500A94DAA /* Supporting Files */,
 				633E461D1C1E9F96003C6128 /* CorePlayer.h */,
 				633E461E1C1E9F96003C6128 /* CorePlayer.m */,
+				63A083771C3D313A006EC0BF /* LocationViewController.h */,
+				63A083781C3D313A006EC0BF /* LocationViewController.m */,
 			);
 			path = Scene_Music;
 			sourceTree = "<group>";
@@ -268,6 +275,7 @@
 		63C0A16E1C0C247500A94DAA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				63C0A17F1C0C247500A94DAA /* Info.plist */,
 				63C0A16F1C0C247500A94DAA /* main.m */,
 			);
 			name = "Supporting Files";
@@ -276,6 +284,7 @@
 		F50946B614875CF5080FD301 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				63A7FCD41C3FD77A004C1453 /* MapKit.framework */,
 				505DBA4AEF7D43A58F95678F /* libPods.a */,
 			);
 			name = Frameworks;
@@ -330,7 +339,7 @@
 								enabled = 0;
 							};
 							com.apple.Maps.iOS = {
-								enabled = 0;
+								enabled = 1;
 							};
 						};
 					};
@@ -452,6 +461,7 @@
 				6397CC281C0C41AC002478EE /* ChorusLastFMUtility.m in Sources */,
 				6397CC331C0C41AC002478EE /* ChorusUIUtility.m in Sources */,
 				6397CC391C0C41AC002478EE /* UIView+Effects.m in Sources */,
+				63A083791C3D313A006EC0BF /* LocationViewController.m in Sources */,
 				6397CC2C1C0C41AC002478EE /* ChorusNowPlayingViewController.m in Sources */,
 				6397CC361C0C41AC002478EE /* UIColor+Extensions.m in Sources */,
 				6397CC2E1C0C41AC002478EE /* ChorusSongsCell.m in Sources */,
@@ -501,6 +511,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -545,6 +556,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";

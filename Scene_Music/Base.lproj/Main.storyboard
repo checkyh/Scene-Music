@@ -50,6 +50,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="mhY-Y3-SP6" kind="push" id="vhR-p9-rMX"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" id="nl9-bJ-VRy">
                                         <rect key="frame" x="0.0" y="136" width="320" height="44"/>
@@ -118,6 +121,43 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Leg-L1-usi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-156" y="-651"/>
+        </scene>
+        <!--Location View Controller-->
+        <scene sceneID="0Qw-id-2W3">
+            <objects>
+                <viewController id="mhY-Y3-SP6" customClass="LocationViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9dZ-1a-3XY"/>
+                        <viewControllerLayoutGuide type="bottom" id="Gi1-YM-86Z"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hyF-y5-Xkb">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="ug3-c3-Sxd">
+                                <rect key="frame" x="0.0" y="64" width="320" height="455"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="gOk-D1-8g7">
+                        <barButtonItem key="rightBarButtonItem" title="确认" id="XIb-eq-Uvh">
+                            <connections>
+                                <action selector="SetLocation:" destination="mhY-Y3-SP6" id="lV3-FH-W99"/>
+                            </connections>
+                        </barButtonItem>
+                        <connections>
+                            <outlet property="backBarButtonItem" destination="XIb-eq-Uvh" id="YaS-l2-nQy"/>
+                        </connections>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="confirmButton" destination="XIb-eq-Uvh" id="Nv9-ZZ-htv"/>
+                        <outlet property="mapView" destination="ug3-c3-Sxd" id="MVa-ZK-egD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ocH-bP-G5x" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="216" y="-1222"/>
         </scene>
         <!--Songs-->
         <scene sceneID="rOu-ew-e5P">

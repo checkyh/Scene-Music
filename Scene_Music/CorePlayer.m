@@ -7,6 +7,10 @@
 //
 
 #import "CorePlayer.h"
+@interface CorePlayer()
+@property double homeL1;
+@property double homeL2;
+@end
 @implementation CorePlayer
 
 -(void)loadNewMusic
@@ -77,5 +81,11 @@
     if(userdata){
         [userdata setObject:data  forKey:@"suggest"];
     }
+}
+-(void)SetHomeLocaton:(double)latitude With:(double)longtitude
+{
+    self.homeL1=latitude;
+    self.homeL2=longtitude;
+    NSLog(@"set HomeLocation as");
 }
 @end

@@ -18,4 +18,5 @@
 -(MPMediaItemCollection*)getCollection;
 -(void)saveState;
 -(void)loadNewMusic;
+-(void)SetHomeLocaton:(double) latitude With:(double) longtitude;
 @end
