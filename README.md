@@ -45,9 +45,15 @@ week 18
 
 week 19
 
-1.dynamic update list (show new Music on top  remove deleted music)
+1.real time dynamic update list
+    
+    New Songs on Top
+  
+    Played Songs on Bottom
+  
+    Remove Deleted Songs
 
-2.stop music when terminated 
+2.stop music when terminated and Bugs Fixed
 
 ###Snap
  ![alt text](https://raw.githubusercontent.com/checkyh/Scene-Music/master/snap/thumb_IMG_0011_1024.jpg)
