@@ -57,7 +57,7 @@ week 19
 
 3.Set Home Location View and Function
 
-4.Ohter Bugs Fixed
+4.Other Bugs Fixed
 
 ###Snap
  ![alt text](https://raw.githubusercontent.com/checkyh/Scene-Music/master/snap/thumb_IMG_0011_1024.jpg)
