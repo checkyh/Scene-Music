@@ -24,10 +24,10 @@
             </objects>
             <point key="canvasLocation" x="-906" y="93"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Category View Controller-->
         <scene sceneID="aTM-WK-Z54">
             <objects>
-                <tableViewController id="aeN-uK-eA8" sceneMemberID="viewController">
+                <tableViewController id="aeN-uK-eA8" customClass="CategoryViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="Kjf-bA-m6I">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -42,9 +42,9 @@
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="位置信息：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y6T-No-crz">
-                                                    <rect key="frame" x="31" y="14" width="220" height="21"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="位置信息" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y6T-No-crz">
+                                                    <rect key="frame" x="33" y="14" width="220" height="21"/>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -117,6 +117,9 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="NUa-Z2-VMM"/>
+                    <connections>
+                        <outlet property="LocationText" destination="Y6T-No-crz" id="2XD-l7-00Q"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Leg-L1-usi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

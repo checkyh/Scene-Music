@@ -12,11 +12,18 @@
 @interface CorePlayer : NSObject
 @property (strong, nonatomic) MPMusicPlayerController *audioPlayer;
 @property(strong,nonatomic) NSMutableArray* suggestCollection;
+
 -(void)init_Music;
 -(void)playWithItem:(MPMediaItem*)mediaItem;
 -(void)playWithIndex:(NSUInteger)index;
+
 -(MPMediaItemCollection*)getCollection;
+
 -(void)saveState;
 -(void)loadNewMusic;
+
 -(void)SetHomeLocaton:(double) latitude With:(double) longtitude;
+-(Boolean)inHome;
+@property double currentL1;
+@property double currentL2;
 @end

@@ -48,6 +48,8 @@
 		6397CC3A1C0C41AC002478EE /* UIView+Frames.m in Sources */ = {isa = PBXBuildFile; fileRef = 6397CC141C0C41AC002478EE /* UIView+Frames.m */; };
 		63A083791C3D313A006EC0BF /* LocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A083781C3D313A006EC0BF /* LocationViewController.m */; };
 		63A7FCD51C3FD77A004C1453 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63A7FCD41C3FD77A004C1453 /* MapKit.framework */; };
+		63AD949B1C428075008403A3 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 63AD949A1C428075008403A3 /* Location.m */; };
+		63AD94A41C4288D3008403A3 /* CategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63AD94A31C4288D3008403A3 /* CategoryViewController.m */; };
 		63C0A1701C0C247500A94DAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C0A16F1C0C247500A94DAA /* main.m */; };
 		63C0A1791C0C247500A94DAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63C0A1771C0C247500A94DAA /* Main.storyboard */; };
 		63C0A17E1C0C247500A94DAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63C0A17C1C0C247500A94DAA /* LaunchScreen.storyboard */; };
@@ -133,6 +135,10 @@
 		63A083771C3D313A006EC0BF /* LocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationViewController.h; sourceTree = "<group>"; };
 		63A083781C3D313A006EC0BF /* LocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationViewController.m; sourceTree = "<group>"; };
 		63A7FCD41C3FD77A004C1453 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		63AD94991C428075008403A3 /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
+		63AD949A1C428075008403A3 /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
+		63AD94A21C4288D3008403A3 /* CategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryViewController.h; sourceTree = "<group>"; };
+		63AD94A31C4288D3008403A3 /* CategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryViewController.m; sourceTree = "<group>"; };
 		63C0A16B1C0C247500A94DAA /* Scene_Music.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scene_Music.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63C0A16F1C0C247500A94DAA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		63C0A1781C0C247500A94DAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -266,8 +272,12 @@
 				63C0A16E1C0C247500A94DAA /* Supporting Files */,
 				633E461D1C1E9F96003C6128 /* CorePlayer.h */,
 				633E461E1C1E9F96003C6128 /* CorePlayer.m */,
+				63AD94991C428075008403A3 /* Location.h */,
+				63AD949A1C428075008403A3 /* Location.m */,
 				63A083771C3D313A006EC0BF /* LocationViewController.h */,
 				63A083781C3D313A006EC0BF /* LocationViewController.m */,
+				63AD94A21C4288D3008403A3 /* CategoryViewController.h */,
+				63AD94A31C4288D3008403A3 /* CategoryViewController.m */,
 			);
 			path = Scene_Music;
 			sourceTree = "<group>";
@@ -447,6 +457,7 @@
 				6397CC241C0C41AC002478EE /* ChorusContainerSegue.m in Sources */,
 				6397CC251C0C41AC002478EE /* ChorusContainerViewController.m in Sources */,
 				63C0A1701C0C247500A94DAA /* main.m in Sources */,
+				63AD94A41C4288D3008403A3 /* CategoryViewController.m in Sources */,
 				6397CC3A1C0C41AC002478EE /* UIView+Frames.m in Sources */,
 				6397CC1E1C0C41AC002478EE /* ChorusArtistsCell.m in Sources */,
 				6397CC381C0C41AC002478EE /* UIView+Animations.m in Sources */,
@@ -468,6 +479,7 @@
 				6397CC2A1C0C41AC002478EE /* ChorusMediaUtility.m in Sources */,
 				633E461F1C1E9F96003C6128 /* CorePlayer.m in Sources */,
 				6397CC231C0C41AC002478EE /* ChorusBaseViewController.m in Sources */,
+				63AD949B1C428075008403A3 /* Location.m in Sources */,
 				6397CC261C0C41AC002478EE /* ChorusIndexSectionHeader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

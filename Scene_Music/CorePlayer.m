@@ -7,9 +7,11 @@
 //
 
 #import "CorePlayer.h"
+#import "Location.h"
 @interface CorePlayer()
 @property double homeL1;
 @property double homeL2;
+@property Location *location;
 @end
 @implementation CorePlayer
 
@@ -45,6 +47,8 @@
     if(userdata){
         NSData *data=[userdata objectForKey:@"suggest"];
         _suggestCollection=[[NSMutableArray alloc]initWithArray:[NSKeyedUnarchiver unarchiveObjectWithData:data] copyItems:true];
+        self.homeL1=[userdata doubleForKey:@"homeL1"];
+        self.homeL2=[userdata doubleForKey:@"homeL2"];
     }
     else _suggestCollection=[NSMutableArray alloc];
     
@@ -55,6 +59,9 @@
         [self.audioPlayer setRepeatMode:MPMusicRepeatModeAll];
         [self playWithIndex:0];
     }
+    self.location= [[Location alloc]init];
+    [self.location startStandardUpdates];
+    
 }
 -(void)playWithItem:(MPMediaItem *)mediaItem
 {
@@ -86,6 +93,23 @@
 {
     self.homeL1=latitude;
     self.homeL2=longtitude;
-    NSLog(@"set HomeLocation as");
+    NSLog(@"set HomeLocation");
+    NSUserDefaults *userdata=[NSUserDefaults standardUserDefaults];
+    if(userdata){
+        [userdata setDouble:self.homeL1 forKey:@"homeL1"];
+        
+        [userdata setDouble:self.homeL2 forKey:@"homeL2"];
+    }
+}
+-(Boolean)inHome
+{
+    NSLog(@"Home: %f   %f",self.homeL1,self.homeL2);
+    NSLog(@"Current:%f  %f",self.currentL1,self.currentL2);
+    double dis1=self.currentL1-self.homeL1;
+    double dis2=self.currentL2-self.homeL2;
+    if(dis1>-0.0005&&dis1<0.0005&&dis2>-0.0005&&dis2
+       <0.0005)
+        return true;
+    else return false;
 }
 @end

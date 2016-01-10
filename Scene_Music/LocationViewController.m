@@ -22,6 +22,7 @@
 
 - (IBAction)SetLocation:(id)sender {
     ChorusAppDelegate *temp=[[UIApplication sharedApplication]delegate];
+    NSLog(@"Pass Home Location %f   %f",self.latitude,self.longtitude);
     [temp.corePlayer SetHomeLocaton:self.latitude With:self.longtitude];
     [self.navigationController popViewControllerAnimated:true];
 }
@@ -72,12 +73,16 @@
     NSLog(@"latitude %+.6f, longitude %+.6f\n",
           location.coordinate.latitude,
           location.coordinate.longitude);
+    self.latitude=location.coordinate.latitude;
+    self.longtitude=location.coordinate.longitude;
 }
 
 -(void)locationManager:(CLLocationManager *)manager didUpdateToLocation:(CLLocation *)newLocation fromLocation:(CLLocation *)oldLocation{
     NSLog(@"latitude %+.6f, longitude %+.6f\n",
           newLocation.coordinate.latitude,
           newLocation.coordinate.longitude);
+    self.latitude=newLocation.coordinate.latitude;
+    self.longtitude=newLocation.coordinate.longitude;
 }
 
 -(void)locationManager:(CLLocationManager *)manager didFailWithError:(NSError *)error{
