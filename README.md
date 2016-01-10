@@ -45,7 +45,7 @@ week 18
 
 week 19
 
-1.real time dynamic update list
+1.Real time dynamic update list
     
     New Songs on Top
   
@@ -53,10 +53,19 @@ week 19
   
     Remove Deleted Songs
 
-2.stop music when terminated and Bugs Fixed
+2.Stop music when terminated 
+
+3.Set Home Location View and Function
+
+4.Other Bugs Fixed
 
 ###Snap
  ![alt text](https://raw.githubusercontent.com/checkyh/Scene-Music/master/snap/thumb_IMG_0011_1024.jpg)
  ![alt text](https://raw.githubusercontent.com/checkyh/Scene-Music/master/snap/thumb_IMG_0012_1024.jpg)
  ![alt text](https://raw.githubusercontent.com/checkyh/Scene-Music/master/snap/thumb_IMG_0013_1024.jpg)
  ![alt text](https://raw.githubusercontent.com/checkyh/Scene-Music/master/snap/thumb_IMG_0014_1024.jpg)
+##Update of Snaps(2016.18)
+ ![alt text](https://raw.githubusercontent.com/checkyh/Scene-Music/master/snap/thumb_IMG_0015_1024.jpg)
+ ![alt text](https://raw.githubusercontent.com/checkyh/Scene-Music/master/snap/thumb_IMG_0016_1024.jpg)
+ ![alt text](https://raw.githubusercontent.com/checkyh/Scene-Music/master/snap/thumb_IMG_0018_1024.jpg)
+ ![alt text](https://raw.githubusercontent.com/checkyh/Scene-Music/master/snap/thumb_IMG_0019_1024.jpg)
