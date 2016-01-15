@@ -59,6 +59,16 @@ week 19
 
 4.Other Bugs Fixed
 
+week 20
+
+1.Show Status of Current Preference decided by Location
+
+2.Remove Preference in Setting
+
+3.Dynamic Range List (Artist ,Album ,songs play, new Song)
+
+4.Needs to be Tested more
+
 ###Snap
  ![alt text](https://raw.githubusercontent.com/checkyh/Scene-Music/master/snap/thumb_IMG_0011_1024.jpg)
  ![alt text](https://raw.githubusercontent.com/checkyh/Scene-Music/master/snap/thumb_IMG_0012_1024.jpg)
