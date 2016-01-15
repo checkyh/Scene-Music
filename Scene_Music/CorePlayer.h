@@ -21,6 +21,7 @@
 
 -(void)saveState;
 -(void)loadNewMusic;
+-(void)clearDefaults;
 
 -(void)SetHomeLocaton:(double) latitude With:(double) longtitude;
 -(Boolean)inHome;

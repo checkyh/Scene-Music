@@ -1,20 +1,25 @@
 //
-//  CategoryViewController.m
+//  SettingViewController.m
 //  Scene_Music
 //
 //  Created by checkyh on 16/1/10.
 //  Copyright © 2016年 checkyh. All rights reserved.
 //
 
-#import "CategoryViewController.h"
+#import "SettingViewController.h"
 #import "ChorusAppDelegate.h"
-@interface CategoryViewController ()
-@property (weak, nonatomic) IBOutlet UILabel *LocationText;
+@interface SettingViewController ()
+@property (weak, nonatomic) IBOutlet UIButton *ClearButton;
 
 @end
 
-@implementation CategoryViewController
-
+@implementation SettingViewController
+-(void) toggleButton: (UIButton *) button
+{
+ 
+    ChorusAppDelegate *temp=[[UIApplication sharedApplication]delegate];
+    [temp.corePlayer clearDefaults];
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     
@@ -23,23 +28,13 @@
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    [self.ClearButton addTarget:self action:@selector(toggleButton:) forControlEvents:UIControlEventTouchUpInside];
 }
 
--(void)viewWillAppear:(BOOL)animated
-{
-    [super viewWillAppear:true];
-    ChorusAppDelegate *temp=[[UIApplication sharedApplication]delegate];
-    if([temp.corePlayer inHome])
-        [self.LocationText setText:@"位置：在家（配置：家）"];
-    else
-        [self.LocationText setText:@"位置：外出（配置：外出）"];
-
-}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
 
 /*
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {

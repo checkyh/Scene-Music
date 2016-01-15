@@ -50,6 +50,7 @@
 		63A7FCD51C3FD77A004C1453 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63A7FCD41C3FD77A004C1453 /* MapKit.framework */; };
 		63AD949B1C428075008403A3 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 63AD949A1C428075008403A3 /* Location.m */; };
 		63AD94A41C4288D3008403A3 /* CategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63AD94A31C4288D3008403A3 /* CategoryViewController.m */; };
+		63AD94A71C428EAD008403A3 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63AD94A61C428EAD008403A3 /* SettingViewController.m */; };
 		63C0A1701C0C247500A94DAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C0A16F1C0C247500A94DAA /* main.m */; };
 		63C0A1791C0C247500A94DAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63C0A1771C0C247500A94DAA /* Main.storyboard */; };
 		63C0A17E1C0C247500A94DAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63C0A17C1C0C247500A94DAA /* LaunchScreen.storyboard */; };
@@ -139,6 +140,8 @@
 		63AD949A1C428075008403A3 /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
 		63AD94A21C4288D3008403A3 /* CategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryViewController.h; sourceTree = "<group>"; };
 		63AD94A31C4288D3008403A3 /* CategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryViewController.m; sourceTree = "<group>"; };
+		63AD94A51C428EAD008403A3 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		63AD94A61C428EAD008403A3 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
 		63C0A16B1C0C247500A94DAA /* Scene_Music.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scene_Music.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63C0A16F1C0C247500A94DAA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		63C0A1781C0C247500A94DAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -278,6 +281,8 @@
 				63A083781C3D313A006EC0BF /* LocationViewController.m */,
 				63AD94A21C4288D3008403A3 /* CategoryViewController.h */,
 				63AD94A31C4288D3008403A3 /* CategoryViewController.m */,
+				63AD94A51C428EAD008403A3 /* SettingViewController.h */,
+				63AD94A61C428EAD008403A3 /* SettingViewController.m */,
 			);
 			path = Scene_Music;
 			sourceTree = "<group>";
@@ -469,6 +474,7 @@
 				6397CC321C0C41AC002478EE /* ChorusTopBarViewController.m in Sources */,
 				6397CC371C0C41AC002478EE /* UINavigationController+ViewControllers.m in Sources */,
 				6397CC201C0C41AC002478EE /* ChorusArtistsViewController.m in Sources */,
+				63AD94A71C428EAD008403A3 /* SettingViewController.m in Sources */,
 				6397CC281C0C41AC002478EE /* ChorusLastFMUtility.m in Sources */,
 				6397CC331C0C41AC002478EE /* ChorusUIUtility.m in Sources */,
 				6397CC391C0C41AC002478EE /* UIView+Effects.m in Sources */,

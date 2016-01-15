@@ -89,6 +89,13 @@
         [userdata setObject:data  forKey:@"suggest"];
     }
 }
+-(void)clearDefaults
+{
+    [[NSUserDefaults standardUserDefaults]removeObjectForKey:@"suggest"];
+    [[NSUserDefaults standardUserDefaults]setDouble:0 forKey:@"homeL1"];
+    [[NSUserDefaults standardUserDefaults]setDouble:0 forKey:@"homeL2"];
+    
+}
 -(void)SetHomeLocaton:(double)latitude With:(double)longtitude
 {
     self.homeL1=latitude;
