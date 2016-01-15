@@ -44,7 +44,7 @@
                                             <subviews>
                                                 <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0kO-WA-O7f">
                                                     <rect key="frame" x="15" y="7" width="202" height="30"/>
-                                                    <state key="normal" title="清除用户配置信息并退出"/>
+                                                    <state key="normal" title="清除用户配置信息"/>
                                                 </button>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="c75-MG-6hb">
                                                     <rect key="frame" x="15" y="0.0" width="290" height="43"/>
