@@ -23,8 +23,7 @@
     UIViewController *rootViewController = [rootStoryBoard instantiateInitialViewController];
     [self.window setRootViewController:rootViewController];
     [self.window makeKeyAndVisible];
-    self.corePlayer=[CorePlayer alloc];
-    [self.corePlayer init_Music];
+    self.corePlayer=[[CorePlayer alloc]init];
     return YES;
 }
 
