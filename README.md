@@ -76,10 +76,10 @@ week 20
  ![alt text](https://raw.githubusercontent.com/checkyh/Scene-Music/master/snap/thumb_IMG_0012_1024.jpg)
  ![alt text](https://raw.githubusercontent.com/checkyh/Scene-Music/master/snap/thumb_IMG_0013_1024.jpg)
  ![alt text](https://raw.githubusercontent.com/checkyh/Scene-Music/master/snap/thumb_IMG_0014_1024.jpg)
-##Update of Snaps(2016.18)
+##Update of Snaps(2016.1.8)
  ![alt text](https://raw.githubusercontent.com/checkyh/Scene-Music/master/snap/thumb_IMG_0015_1024.jpg)
  ![alt text](https://raw.githubusercontent.com/checkyh/Scene-Music/master/snap/thumb_IMG_0016_1024.jpg)
  ![alt text](https://raw.githubusercontent.com/checkyh/Scene-Music/master/snap/thumb_IMG_0018_1024.jpg)
  ![alt text](https://raw.githubusercontent.com/checkyh/Scene-Music/master/snap/thumb_IMG_0019_1024.jpg)
-##different configuration
+####different configuration(2016.1.14)
  ![alt text](https://raw.githubusercontent.com/checkyh/Scene-Music/master/snap/QQ20160115-1.png)
