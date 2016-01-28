@@ -57,10 +57,18 @@
                 if([[_suggestCollection objectAtIndex:i] isEqual:qitem]) {judge=true;break;}
             if(!judge)
                 [_suggestCollection removeObject:[_suggestCollection objectAtIndex:i]];
-     }
+     
+    }
+    [self updateList];
     [self saveState];
+}
+-(void)updateList
+{
     [_rank updateList:_suggestCollection];
-    
+    if(_suggestCollection.count>0){
+        MPMediaItemCollection *list=[[MPMediaItemCollection alloc]initWithItems:_suggestCollection];
+        [self.audioPlayer setQueueWithItemCollection:list];
+    }
 }
 -(void)init_Music
 {
@@ -89,7 +97,7 @@
         [self.audioPlayer setNowPlayingItem:mediaItem];
         [self.audioPlayer play];
         [_rank listened:mediaItem];
-        [_rank updateList:_suggestCollection];
+        [self updateList];
         [self saveState];
     }
 }

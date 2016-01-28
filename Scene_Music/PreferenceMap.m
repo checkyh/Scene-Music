@@ -34,14 +34,14 @@
     keyword=[mediaItem valueForKey:MPMediaItemPropertyArtist];
     score=[_keywords objectForKey:keyword];
     if(score!=nil)
-        [_keywords setValue:[NSNumber numberWithInt:[score integerValue]+5] forKey:keyword];
+        [_keywords setValue:[NSNumber numberWithInt:[score integerValue]+1] forKey:keyword];
     else
         [_keywords setValue:[NSNumber numberWithInt:5] forKey:keyword];
 
     keyword=[mediaItem valueForKey:MPMediaItemPropertyAlbumTitle];
     score=[_keywords objectForKey:keyword];
     if(score!=nil)
-        [_keywords setValue:[NSNumber numberWithInt:[score integerValue]+5] forKey:keyword];
+        [_keywords setValue:[NSNumber numberWithInt:[score integerValue]+1] forKey:keyword];
     else
         [_keywords setValue:[NSNumber numberWithInt:5] forKey:keyword];
 
