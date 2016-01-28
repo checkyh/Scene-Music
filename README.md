@@ -11,11 +11,11 @@ Smartly switch  Next Item to the suggested one
 ###Configuration
 1.install CocoaPods
 
-2.pod update/install to get workspace file
+2.pod update/install to get Scene_Music.xcworkspace file
 
 3.open with xcode 
 
-4.compile and run (with devices ， need media library)
+4.compile and run (with devices,need media library)
 
 ###Work Main Changes
 Currently,Basic player model is based on the uncompleted music player 
