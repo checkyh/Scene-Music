@@ -8,6 +8,15 @@ Tempt to Develop a Music Player on IOS
 
 Smartly switch  Next Item to the suggested one
 
+###Configuration
+1.install CocoaPods
+
+2.pod update/install to get workspace file
+
+3.open with xcode 
+
+4.compile and run (with devices ， need media library)
+
 ###Work Main Changes
 Currently,Basic player model is based on the uncompleted music player 
 
@@ -70,6 +79,12 @@ week 20
 4.Save Preference Data in UserDefaults
 
 5.Needs to be Tested more
+
+week 21
+
+1.Update media queue
+
+2.Adjust album aritist score_changing
 
 ###Snap
  ![alt text](https://raw.githubusercontent.com/checkyh/Scene-Music/master/snap/thumb_IMG_0011_1024.jpg)
